@@ -19,6 +19,115 @@ ideas = {
 	}	
     country = {
 
+		economic_balance = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+		   research_speed_factor = 0.01
+		   consumer_goods_factor = -0.01
+		   }
+	   }
+
+	   economic_balance_2 = {
+		
+		allowed = {
+		   always = no
+	   }
+
+	   allowed_civil_war = {
+		   always = yes
+	   }
+
+	   removal_cost = -1
+	   
+	   modifier = {
+	   research_speed_factor = 0.02
+	   consumer_goods_factor = -0.02
+	   }
+   }
+
+		corporatism_favoured = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			production_lack_of_resource_penalty_factor = -0.01
+		   consumer_goods_factor = -0.02
+		   }
+	   }
+
+	corporatism_favoured_2 = {
+		
+		allowed = {
+		   always = no
+	   }
+
+	   allowed_civil_war = {
+		   always = yes
+	   }
+
+	   removal_cost = -1
+	   
+	   modifier = {
+		production_lack_of_resource_penalty_factor = -0.02
+	   consumer_goods_factor = -0.03
+	   }
+   }
+
+		technocracy_favoured = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+		   production_factory_efficiency_gain_factor = 0.01
+		   research_speed_factor = 0.02
+		   }
+	   }
+
+	   technocracy_favoured_2 = {
+		
+		allowed = {
+		   always = no
+	   }
+
+	   allowed_civil_war = {
+		   always = yes
+	   }
+
+	   removal_cost = -1
+	   
+	   modifier = {
+	   stability_factor = 0.02
+	   production_factory_efficiency_gain_factor = 0.01
+	   research_speed_factor = 0.02
+	   }
+   }
+
 	
 	    efficient_administration = {
 		
