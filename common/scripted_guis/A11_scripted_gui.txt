@@ -56,6 +56,7 @@ scripted_gui = {
 				534 = { is_owned_and_controlled_by = A11 }	
 			}			
 		}
+
 		properties = { 
 			A11_map = {
 				image = "GFX_decision_A11_main_map"

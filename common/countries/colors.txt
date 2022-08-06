@@ -1,7 +1,38 @@
 #reload countrycolors
+ARM = {
+	color = rgb { 204 204 0 }
+	color_ui = rgb { 204 204 0 }
+}
+
+GEO = {
+	color = rgb { 204 153 0 }
+	color_ui = rgb { 204 153 0 }
+}
+
+AZB = {
+	color = rgb { 153 102 51 }
+	color_ui = rgb { 153 102 51 }
+}
+
+
 HOK = {
 	color = rgb { 51 102 255 }
 	color_ui = rgb { 51 102 255 }
+}
+
+SRU = {
+	color = rgb { 121 0 0 }
+	color_ui = rgb { 121 0 0 }
+}
+
+LRU = {
+	color = rgb { 153 102 51 }
+	color_ui = rgb { 153 102 51 }
+}
+
+MRU = {
+	color = rgb { 102 102 153 }
+	color_ui = rgb { 102 102 153 }
 }
 
 KYU = {
