@@ -54,6 +54,8 @@ focus_tree = {
 		}
 	}
 
+
+
 	focus = {
 		id = BRT_odysseus_resign
 		icon = GFX_BRT_odysseus_resign

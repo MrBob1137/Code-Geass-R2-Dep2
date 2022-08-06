@@ -998,7 +998,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			hidden_effect = {
+<<<<<<< Updated upstream
 				#load_focus_tree = britannia_focus_2
+=======
+				#load_focus_tree = japan_kururugi
+>>>>>>> Stashed changes
 				set_country_flag = JAP_invasion
 				set_country_flag = Super_Event_Visible
 			}	
