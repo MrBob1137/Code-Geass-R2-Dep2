@@ -63,7 +63,7 @@ V 0.1.7 'The Brittanian Century'
 -introduction of 2010s values of population into brittanian held states
 - state rework using 2010s regional state borders
 
-TEST EDIT!
+TEST EDIT! Test edit v2
 
 V 0.2 'The Great Showdawn'
 -UFN and Britannian War  aka Battle For World Domination
