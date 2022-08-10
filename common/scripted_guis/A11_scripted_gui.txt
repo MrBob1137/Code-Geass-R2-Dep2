@@ -3,7 +3,6 @@ scripted_gui = {
 	a11_regime_ui = {
 		context_type = decision_category
 		window_name = "a11_regime_decision_ui_window"
-		 
         visible = {
             always = yes
         }
@@ -81,6 +80,48 @@ scripted_gui = {
 			}
 			Chubu_Map = {
 				image = "[get_Chubu_Map_gfx]"
+			}
+		}
+
+		ai_enabled = {
+			is_ai = yes
+		}
+		
+		ai_weights = {
+			Hokkaido_Map_click = {
+				ai_will_do = {
+					base = 0
+				}
+			}
+			Kansai_Map_click = {
+				ai_will_do = {
+					
+				}
+			}
+			Kanto_Map_click = {
+				ai_will_do = {
+					
+				}
+			}
+			Chuguko_Map_click = {
+				ai_will_do = {
+					
+				}
+			}
+			Kyushu_Map_click = {
+				ai_will_do = {
+					
+				}
+			}
+			Chubu_Map_click = {
+				ai_will_do = {
+					
+				}
+			}
+			Tohoku_Map_click = {
+				ai_will_do = {
+					
+				}
 			}
 		}
 	}
