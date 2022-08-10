@@ -339,6 +339,7 @@ focus_tree = {
 		}
 	}
 
+
 	focus = {
 		id = BRT_mantain_balance
 		icon = GFX_BRT_mantain_balance
