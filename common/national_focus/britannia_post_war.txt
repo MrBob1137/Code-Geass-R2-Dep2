@@ -36,6 +36,7 @@ focus_tree = {
 
 		available = {		
 		country_exists = BRT
+		country_exists = A11
 
 		}
 
@@ -48,11 +49,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-		  load_focus = britannia_schneizel
-		  hidden_effect = {
-		}
+			add_stability = 0.10
+			add_war_support = 0.10
 		}
 	}
+
+
 
 	focus = {
 		id = BRT_odysseus_resign
@@ -82,8 +84,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+
+			country_event = BRT.15
+			
 		}
 	}
 
@@ -116,8 +119,8 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			custom_effect_tooltip = BRT_struggle_begin_tt
+			country_event = BRT.16
 		}
 	}
 
@@ -149,8 +152,8 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			add_political_power = 50
+			country_event = BRT.18
 		}
 	}
 
@@ -186,8 +189,8 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			BRT_guinevere_influence = yes
+			add_ideas = corporatism_favoured
 		}
 	}
 
@@ -219,8 +222,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			swap_ideas = {
+				remove_idea = corporatism_favoured
+				add_idea = corporatism_favoured_2
+			}
 		}
 	}
 
@@ -256,8 +261,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			country_event = BRT.25
 		}
 	}
 
@@ -289,8 +293,8 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			add_ideas = technocracy_favoured
+			BRT_schneizel_influence = yes
 		}
 	}
 
@@ -322,8 +326,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			swap_ideas = {
+				remove_idea = technocracy_favoured
+				add_idea = technocracy_favoured_2
+			}
 		}
 	}
 
@@ -363,8 +369,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			BRT_guinevere_influence_low = yes
+			BRT_schneizel_influence_low = yes
+			add_ideas = economic_balance
 		}
 	}
 
@@ -396,8 +403,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			swap_ideas = {
+				remove_idea = economic_balance
+				add_idea = economic_balance_2
+			}
 		}
 	}
 
@@ -434,8 +443,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 1
+				category = industry
+			}
+			country_event = BRT.26
 		}
 	}
 
@@ -471,8 +484,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			remove_ideas = BRT_generic_noble_1_idea
 		}
 	}
 
@@ -504,8 +516,8 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			add_political_power = 50
+			country_event = BRT.17
 		}
 	}
 
@@ -540,8 +552,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			BRT_guinevere_influence = yes
+			add_opinion_modifier = {
+				target = CHI
+				modifier = hostile_status
+			}
 		}
 	}
 
@@ -573,7 +588,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
+		A11 = {
+			add_stability = 0.03
+			add_war_support = 0.04
+			add_manpower = 5000
 		}
 		}
 	}
@@ -606,8 +624,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			country_event = BRT.20
 		}
 	}
 
@@ -642,8 +659,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			remove_ideas = BRT_generic_minister_1_idea
 		}
 	}
 
@@ -680,8 +696,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			BRT_schneizel_influence = yes
+			add_opinion_modifier = {
+				target = FRA
+				modifier = hostile_status
+			}
 		}
 	}
 
@@ -713,8 +732,28 @@ focus_tree = {
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			hidden_effect = {
+		completion_reward = {	
+           navy_experience = 50
+		   366 = {
+		   add_building_construction = {
+			type = dockyard
+			level = 2
+			instant_build = yes
+		}
+	 }
+		357 = {
+			add_building_construction = {
+			 type = dockyard
+			 level = 1
+			 instant_build = yes
+		 }
+		}
+		 358 = {
+			add_building_construction = {
+			 type = dockyard
+			 level = 1
+			 instant_build = yes
+		 }
 		}
 		}
 	}
@@ -748,8 +787,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			country_event = BRT.21
 		}
 	}
 
@@ -781,8 +819,8 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			add_political_power = 50
+			country_event = BRT.19
 		}
 	}
 
@@ -814,8 +852,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			country_event = BRT.22
 		}
 	}
 
@@ -848,8 +885,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			country_event = BRT.23
 		}
 	}
 
@@ -881,8 +917,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			country_event = BRT.24
 		}
 	}
 
@@ -914,8 +949,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			remove_ideas = BRT_generic_general_1_idea
 		}
 	}
 
@@ -949,8 +983,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			hidden_effect = {
-		}
+			country_event = BRT.27
 		}
 	}
 
