@@ -1,6 +1,6 @@
 ﻿capital = 607 
 
-oob = "INDONESIA"
+oob = "INS"
 
 
 
