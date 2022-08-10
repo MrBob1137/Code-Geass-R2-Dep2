@@ -171,6 +171,7 @@ focus_tree = {
 
 		mutually_exclusive = {
 			focus = BRT_mantain_balance
+			focus = BRT_favour_technocracy
 		}
 		prerequisite = { focus = BRT_economic_field }
 		relative_position_id = BRT_economic_field
@@ -285,6 +286,11 @@ focus_tree = {
 		}
 
 		bypass = {
+		}
+		
+		mutually_exclusive = {
+			focus = BRT_mantain_balance
+			focus = BRT_favour_corporatism
 		}
 
 		cancel_if_invalid = yes
