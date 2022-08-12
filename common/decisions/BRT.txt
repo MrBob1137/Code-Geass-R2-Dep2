@@ -564,3 +564,59 @@ BRT_manage_area_quotas = {
 		}
 	}
 }
+
+BRT_post_war_struggle = {
+
+	BRT_increase_Schneizel_support = {
+
+		fire_only_once = no
+
+		visible = {
+			check_variable = { Schneizel_power < 100 }
+		}
+
+		available = {
+			tag = BRT
+		}
+		cost = 20
+
+		days_remove = 15
+		days_re_enable = 15
+
+		complete_effect = {
+		}
+
+
+		remove_effect = {
+			BRT_Schneizel_influence = yes
+		}
+
+
+	}
+	BRT_increase_Guinevere_support = {
+
+		fire_only_once = no
+
+		visible = {
+			check_variable = { Guinevere_power < 100 }
+		}
+
+		available = {
+			tag = BRT
+		}
+		cost = 20
+
+		days_remove = 15
+		days_re_enable = 15
+
+		complete_effect = {
+		}
+
+
+		remove_effect = {
+			BRT_Guinevere_influence = yes
+		}
+
+
+	}
+}

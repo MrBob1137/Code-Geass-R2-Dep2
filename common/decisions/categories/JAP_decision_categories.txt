@@ -25,7 +25,7 @@ JAP_post_war_struggle = {
 	visible = {
 		tag = JAP
 		check_variable = {
-			struggle_begins = 1
+			JAP_struggle_begins = 1
 		}
 	}
 
