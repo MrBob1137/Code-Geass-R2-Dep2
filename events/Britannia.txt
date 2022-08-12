@@ -1219,10 +1219,25 @@ country_event = {   #Schneizel Wins
 		
 		
 	}
+}
+
+
+    country_event = {   #Schnizel's Assension
+    id = BRT.30
+    title = BRT.30.t
+    desc = BRT.30.d
 	
-		
-		
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = BRT.30.answer
+
+		ai_chance = {
+			factor = 70
+		}
 	}
+}
 
 
 
