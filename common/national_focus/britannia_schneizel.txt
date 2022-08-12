@@ -1331,7 +1331,6 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			country_event = BRT.30
 		  hidden_effect = {
 		}
 		}
