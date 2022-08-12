@@ -102,7 +102,7 @@ focus_tree = {
 		}
 	}
 
-    		focus = {
+    	focus = {
 		id = BRT_assassination
 		icon = GFX_BRT_assassination
 		x = 14

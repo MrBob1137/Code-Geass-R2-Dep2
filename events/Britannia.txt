@@ -1231,7 +1231,7 @@ country_event = {   #Schneizel Wins
 	is_triggered_only = yes
 
 	option = {
-		name = BRT.30.answer
+		name = BRT.30.a
 
 		ai_chance = {
 			factor = 70

@@ -16,7 +16,6 @@ focus_tree = {
 		}
 	}
 	
-
 	default = no
 
 	continuous_focus_position = { x = 20 y = 2500 }
@@ -33,8 +32,9 @@ focus_tree = {
 			factor = 100
 		}
 
-		available = {		
-		country_exists = BRT
+		available = {
+			country_exists = BRT
+			has_completed_focus =  BRT_national_security_prog
 
 		}
 
@@ -119,6 +119,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			send_volunteer_size = 10
 		  hidden_effect = {
 		}
 		}
@@ -1506,6 +1507,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_popularity = {
+				ideology = autocracy
+				popularity = 0.1
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1541,6 +1546,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_stability = 0.05
 		  hidden_effect = {
 		}
 		}
@@ -1578,6 +1584,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_political_power = 100
 		  hidden_effect = {
 		}
 		}
