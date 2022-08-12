@@ -1367,6 +1367,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.31
 		  hidden_effect = {
 		}
 		}
@@ -1402,6 +1403,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.32
 		  hidden_effect = {
 		}
 		}
@@ -1437,6 +1439,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.33
 		  hidden_effect = {
 		}
 		}
@@ -1472,6 +1475,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.34
 		  hidden_effect = {
 		}
 		}
@@ -1620,6 +1624,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.35
 		  hidden_effect = {
 		}
 		}
@@ -1655,6 +1660,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.36
 		  hidden_effect = {
 		}
 		}

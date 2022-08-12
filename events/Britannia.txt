@@ -1231,7 +1231,7 @@ country_event = {   #Schneizel Wins
 	is_triggered_only = yes
 
 	option = {
-		name = BRT.30.a
+		name = BRT.30.a	
 
 		ai_chance = {
 			factor = 70
@@ -1239,6 +1239,107 @@ country_event = {   #Schneizel Wins
 	}
 }
 
+country_event = {   #Support Knights
+id = BRT.31
+title = BRT.31.t
+desc = BRT.31.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.31.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Charles Talk
+id = BRT.32
+title = BRT.32.t
+desc = BRT.32.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.32.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Deal Guinevere
+id = BRT.33
+title = BRT.33.t
+desc = BRT.33.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.33.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Endorsment Odysseus
+id = BRT.34
+title = BRT.34.t
+desc = BRT.34.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.34.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Rule Supreme
+id = BRT.35
+title = BRT.35.t
+desc = BRT.35.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.35.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #National Security
+id = BRT.36
+title = BRT.36.t
+desc = BRT.36.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.36.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
 
 
 
