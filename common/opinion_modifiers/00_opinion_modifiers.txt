@@ -18,6 +18,10 @@ opinion_modifiers = {
 		value = -100
 	}
 
+	brittanian_support = {
+		value = 50
+	}
+
 
 	holds_our_cores = {
 		value = -30

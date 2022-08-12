@@ -19,6 +19,13 @@ ideas = {
 	}	
     country = {
 
+		The_Great_Homecoming_Phase_1 = {
+			modifier{
+				send_volunteer_size = 10
+				air_volunteer_cap = 100
+			}
+		}
+
 		economic_balance = {
 		
 			allowed = {
@@ -432,7 +439,7 @@ ideas = {
 		}
 		
 		
-		tank_manufacturer = { 
+			tank_manufacturer = { 
 				
 			designer = yes
 			
