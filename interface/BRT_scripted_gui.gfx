@@ -6,11 +6,5 @@ spriteTypes = {
 		texturefile = "gfx/interface/scripted_gui_graphics/BRT_gui/BRT_competitors.png"
 		transparencecheck = yes
 	}
-	spriteType = {
-		name = "GFX_decision_BRT_post_war_struggle_gui_datas"
-		texturefile = "gfx/interface/scripted_gui_graphics/BRT_gui/BRT_datas.png"
-		transparencecheck = yes
-	}
-
 	
 }	
