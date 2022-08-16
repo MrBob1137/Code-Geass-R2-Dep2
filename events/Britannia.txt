@@ -1461,22 +1461,7 @@ option = {
 }
 }
 
-country_event = {   #Operation Orange
-id = BRT.44
-title = BRT.44.t
-desc = BRT.44.d
 
-fire_only_once = yes
-is_triggered_only = yes
-
-option = {
-	name = BRT.44.a	
-
-	ai_chance = {
-		factor = 70
-	}
-}
-}
 
 
 
