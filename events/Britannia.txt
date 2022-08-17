@@ -1461,6 +1461,40 @@ option = {
 }
 }
 
+country_event = {  #Guinevere Wins
+id = BRT.44
+title = BRT.44.t
+desc = BRT.44.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.44.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {  #Guinevere's Speech
+id = BRT.45
+title = BRT.45.t
+desc = BRT.45.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.45.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
 
 
 
