@@ -83,6 +83,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				remove_advisor_role = {
+					character = BRT_schneizel
+				}
+			}
 		  hidden_effect = {
 		}
 		}
