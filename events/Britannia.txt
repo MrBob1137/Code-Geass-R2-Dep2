@@ -1471,6 +1471,9 @@ is_triggered_only = yes
 
 option = {
 	name = BRT.44.a	
+	BRT = {
+		activate_advisor = BRT_guinevere_idea
+	}
 
 	ai_chance = {
 		factor = 70
@@ -1488,7 +1491,6 @@ is_triggered_only = yes
 
 option = {
 	name = BRT.45.a	
-	activate_advisor = BRT_guinevere_idea
 
 	ai_chance = {
 		factor = 70
