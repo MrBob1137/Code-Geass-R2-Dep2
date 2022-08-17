@@ -83,6 +83,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			activate_advisor = BRT_guinevere_idea
 		  hidden_effect = {
 		}
 		}
@@ -688,7 +689,7 @@ focus_tree = {
 
 		available = {		
 		country_exists = BRT
-		has_completed_focus = britannia_guinevere
+		has_completed_focus = BRT_dustle_settles
 		}
 
 		bypass = {
@@ -787,6 +788,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_popularity{
+				ideology = autocracy
+				popularity = 0.1
+			}
 		  hidden_effect = {
 		}
 		}

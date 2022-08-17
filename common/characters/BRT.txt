@@ -406,7 +406,7 @@ characters={
 
 
 	
-	BRT_generic_general_1={
+	BRT_exotic_interior_1={
 		name=BRT_generic_general_1
 		portraits={
 			civilian={
@@ -433,7 +433,7 @@ characters={
 		}
 	}
 	
-	BRT_odysseus ={
+	BRT_odysseus_Exotic ={
 		name = BRT_odysseus
 		portraits={
 			civilian={
@@ -514,11 +514,11 @@ characters={
 		}
 	}
 	
-	BRT_generic_noble_1 ={
-		name=BRT_generic_noble_1 
-		portraits={
-			civilian={
-				small="GFX_idea_BRT_generic_noble_1"
+	BRT_exotic_noble_1 ={
+		name = BRT_generic_noble_1 
+		portraits = {
+			civilian = {
+				small = "GFX_idea_BRT_generic_noble_1"
 			}
 		}
 		advisor={
@@ -541,8 +541,8 @@ characters={
 		}
 	}
 	
-	BRT_generic_minister_1 ={
-		name=BRT_generic_minister_1
+	BRT_Exotic_minister_1 ={
+		name = BRT_generic_minister_1
 		portraits={
 			civilian={
 				small="GFX_idea_BRT_generic_minister_1"
@@ -570,8 +570,8 @@ characters={
 
 	
 	
-	BRT_VV ={
-		name=BRT_VV
+	BRT_VV_Exotic ={
+		name = BRT_VV
 		portraits={
 			civilian={
 				small="GFX_idea_BRT_VV"
