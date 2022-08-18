@@ -337,9 +337,75 @@ spurred_industrialization_1 = {
 
 			}
 		}
+		wild_tribes = {
 		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+		   stability_factor = -0.2
+		   political_power_factor = -0.10
+		   }
+	    }
+		admirals_fiefdom = {
 		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+		   stability_factor = -0.05
+		   consumer_goods_factor = 0.1 	
+		   industrial_capacity_dockyard = -0.1
+		   }
+	    }
+		luciano_debauchery = {
 		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+		   stability_factor = -0.2
+		   political_power_factor = -0.10
+		   }
+	    }
+		clovis_lavish_life = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+		   stability_factor = -0.2
+		   political_power_factor = -0.10
+		   }
+	    }
 		
 		
 

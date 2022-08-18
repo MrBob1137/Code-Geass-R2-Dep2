@@ -16,7 +16,7 @@ ideas = {
 			ai_focus_aggressive_factor = 0.15
 		   }
 	   }
-	}	
+	}
     country = {
 
 		The_Great_Homecoming_Phase_1 = {
@@ -283,7 +283,507 @@ ideas = {
             industrial_capacity_dockyard = 0.15
 			}
 		}
+					
+		rsi_phase_1 = {
 		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+		    agency_upgrade_time = 0.5
+		    intelligence_agency_defense = -0.3
+			subjects_autonomy_gain = 0.3
+			foreign_subversive_activites = 0.3
+		   }
+	    }
+
+		rsi_phase_2 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			agency_upgrade_time = 0.4
+		    intelligence_agency_defense = -0.2
+			subjects_autonomy_gain = 0.2
+			foreign_subversive_activites = 0.2
+		    }
+	    }
+
+		rsi_phase_3 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			agency_upgrade_time = 0.3
+		    intelligence_agency_defense = -0.1
+		    subjects_autonomy_gain = 0.1
+			foreign_subversive_activites = 0.1
+		   }
+	    }
+
+		osi_phase_1 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			decryption_factor = 0.1
+			intel_network_gain_factor = 0.1
+		   }
+	    }
+
+		osi_phase_2 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			decryption_factor = 0.2
+			encryption_factor = 0.1
+			intel_network_gain_factor = 0.2
+		   }
+	    }
+
+		osi_phase_3 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			decryption_factor = 0.3
+			encryption_factor = 0.2
+			intel_network_gain_factor = 0.3
+		   }
+	    }
+
+		osi_phase_4 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			decryption_factor = 0.4
+			encryption_factor = 0.3
+			intel_network_gain_factor = 0.4
+		   }
+	    }
+		
+		osi_phase_5 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			decryption_factor = 0.5
+			encryption_factor = 0.4
+			intel_network_gain_factor = 0.4
+		   }
+	    }
+		
+		osi_phase_6 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			decryption_factor = 0.5
+			encryption_factor = 0.4
+			subjects_autonomy_gain = -0.5
+			intel_network_gain_factor = 0.4
+		   }
+	    }
+		
+		osi_phase_7 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			decryption_factor = 0.5
+			encryption_factor = 0.4
+			subjects_autonomy_gain = -1
+			intel_network_gain_factor = 0.4
+			stability_weekly = 0.001
+		   }
+	    }
+
+		red_purists_part_1 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			research_speed_factor = -0.15
+			totalitarian_socialism_drift = 0.025
+		   }
+	    }
+
+		red_purists_part_2 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			research_speed_factor = -0.10
+			totalitarian_socialism_drift = 0.020
+		   }
+	    }
+
+		red_purists_part_3 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			research_speed_factor = -0.08
+			totalitarian_socialism_drift = 0.015
+		   }
+	    }
+
+		red_purists_part_4 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			research_speed_factor = -0.05
+			totalitarian_socialism_drift = 0.010
+		   }
+	    }
+
+		red_purists_part_5 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			research_speed_factor = -0.03
+			totalitarian_socialism_drift = 0.050
+		   }
+	    }
+
+		red_purists_part_6 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			totalitarian_socialism_drift = 0.020
+		   }
+	    }
+		
+		red_purists_part_7 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			research_speed_factor = 0.15
+			autocracy_drift = 0.010
+			drift_defence_factor = 0.2
+		   }
+	    }
+						
+		brown_purists_part_1 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			ultra_nationalism_drift = 0.025
+			experience_gain_army_factor = -0.15
+			army_org_factor = -0.15
+			army_attack_factor = -0.10
+		   }
+	    }
+						
+		brown_purists_part_2 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			ultra_nationalism_drift = 0.020
+			experience_gain_army_factor = -0.12
+			army_org_factor = -0.12
+			army_attack_factor = -0.08
+		   }
+	    }
+						
+		brown_purists_part_3 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			ultra_nationalism_drift = 0.015
+			experience_gain_army_factor = -0.09
+			army_org_factor = -0.09
+			army_attack_factor = -0.06
+		   }
+	    }
+						
+		brown_purists_part_4 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			ultra_nationalism_drift = 0.010
+			experience_gain_army_factor = -0.07
+			army_org_factor = -0.07
+			army_attack_factor = -0.04
+		   }
+	    }
+						
+		brown_purists_part_5 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			ultra_nationalism_drift = 0.05
+			experience_gain_army_factor = -0.05
+			army_org_factor = -0.05
+			army_attack_factor = -0.02
+		   }
+	    }
+
+		brown_purists_part_6 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			ultra_nationalism_drift = 0.03
+			army_org_factor = -0.05
+		   }
+	    }
+
+		brown_purists_part_7 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			autocracy_drift = 0.010
+			drift_defence_factor = 0.2
+		   }
+	    }
+
+		brown_purists_part_8 = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			experience_gain_army_factor = 0.15
+			army_attack_factor = 0.10
+			army_org_factor = 0.10
+			autocracy_drift = 0.010
+			drift_defence_factor = 0.2
+		   }
+	    }
+
+		clean_administration = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			experience_gain_army_factor = 0.15
+			army_attack_factor = 0.10
+			army_org_factor = 0.15
+			autocracy_drift = 0.020
+			drift_defence_factor = 0.4
+			research_speed_factor = 0.15
+		   }
+	    }
+
 		pax_britannica = {
 		
 		 	allowed = {

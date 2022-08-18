@@ -1173,6 +1173,8 @@ country_event = {   #Schneizel Wins
 		name = BRT.28.a
 		hidden_effect = {
 			load_focus_tree = britannia_schneizel
+			add_ideas = brown_purists_part_1
+			add_ideas = red_purists_part_1
 		}
 
 	
@@ -1497,6 +1499,7 @@ option = {
 	}
 }
 }
+
 
 
 

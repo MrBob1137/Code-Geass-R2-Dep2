@@ -237,7 +237,8 @@ add_ideas = {
 	extensive_conscription
 	export_focus
 	partial_economic_mobilisation
-	ai_brt_war 
+	ai_brt_war
+	rsi_phase_1
 }
 recruit_character = charles_brt
 recruit_character = aristocrats_brt

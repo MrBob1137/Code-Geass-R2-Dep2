@@ -1740,6 +1740,18 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_2
+				remove_idea = brown_purists_part_1
+			}
+			}
+			BRT = {
+				swap_ideas = {
+				add_idea = red_purists_part_2
+				remove_idea = red_purists_part_1
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1775,6 +1787,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = red_purists_part_3
+				remove_idea = red_purists_part_2
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1810,6 +1828,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = red_purists_part_4
+				remove_idea = red_purists_part_3
+			}
+			}			
 		  hidden_effect = {
 		}
 		}
@@ -1845,6 +1869,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = red_purists_part_5
+				remove_idea = red_purists_part_4
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1880,6 +1910,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = red_purists_part_6
+				remove_idea = red_purists_part_5
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1915,6 +1951,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = red_purists_part_7
+				remove_idea = red_purists_part_6
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1950,6 +1992,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_3
+				remove_idea = brown_purists_part_2
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2126,6 +2174,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_4
+				remove_idea = brown_purists_part_3
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2161,6 +2215,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_5
+				remove_idea = brown_purists_part_4
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2197,6 +2257,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_6
+				remove_idea = brown_purists_part_5
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2232,6 +2298,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_7
+				remove_idea = brown_purists_part_6
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2269,6 +2341,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_8
+				remove_idea = brown_purists_part_7
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2307,6 +2385,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				add_ideas = clean_administration
+				remove_ideas = brown_purists_part_8
+				remove_ideas = red_purists_part_7
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3056,7 +3139,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
+		completion_reward = { 
+			BRT = {
+				add_political_power = 100
+				add_ideas = osi_phase_1
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3092,6 +3179,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = rsi_phase_2
+				remove_idea = rsi_phase_1
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3126,7 +3219,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
+		completion_reward = { 
+			BRT = {
+				swap_ideas = {
+				add_idea = rsi_phase_3
+				remove_idea = rsi_phase_2
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3162,6 +3261,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				remove_ideas = rsi_phase_3
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3198,6 +3300,18 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = osi_phase_5
+				remove_idea = osi_phase_4
+			}
+			}
+			BRT = {
+			create_intelligence_agency = {
+				name = "OSI"
+				icon = GFX_intelligence_agency_logo_pol
+			}
+		    }	
 		  hidden_effect = {
 		}
 		}
@@ -3233,6 +3347,13 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				add_political_power = 100
+				swap_ideas = {
+				add_idea = osi_phase_6
+				remove_idea = osi_phase_5
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3268,6 +3389,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			A11 = {
+				A11_Gov_improve_Low = yes
+				A11_army_improve_Low = yes
+				A11_civil_improve_Low = yes
+            }
 		  hidden_effect = {
 		}
 		}
@@ -3303,6 +3429,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			AR2 = {
+                remove_ideas = wild_tribes
+            } 
 		  hidden_effect = {
 		}
 		}
@@ -3341,6 +3470,13 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				add_political_power = 100
+				swap_ideas = {
+				add_idea = osi_phase_7
+				remove_idea = osi_phase_6
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3411,6 +3547,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			A10 = {
+                remove_ideas = admirals_fiefdom
+            } 
 		  hidden_effect = {
 		}
 		}
@@ -3445,7 +3584,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
+		completion_reward = { 
+			BRT = {
+				swap_ideas = {
+				add_idea = osi_phase_2
+				remove_idea = osi_phase_1
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3480,7 +3625,14 @@ focus_tree = {
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
+		completion_reward = { 
+			add_political_power = 100
+			BRT = {
+				swap_ideas = {
+				add_idea = osi_phase_3
+				remove_idea = osi_phase_2
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3515,7 +3667,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
+		completion_reward = { 
+			BRT = {
+				swap_ideas = {
+				add_idea = osi_phase_4
+				remove_idea = osi_phase_3
+			}
+			}
 		  hidden_effect = {
 		}
 		}
