@@ -23,7 +23,7 @@ focus_tree = {
 
 	focus = {
 		id = BRT_guinevere_triumph
-		icon = GFX_BRT_BRT_guinevere_triumph
+		icon = GFX_BRT_guinevere_triumph
 		x = 10
 		y = 0
 
@@ -1278,8 +1278,9 @@ focus_tree = {
 
 
 	focus = {
-		id = BRT_deal_vv
-		icon = GFX_BRT_deal_vv
+		
+		id = BRT_guinevere_deal_cult
+		icon = GFX_BRT_guinevere_deal_cult
 		x = 1
 		y = 1
 
@@ -1334,14 +1335,14 @@ focus_tree = {
 		}
 
 
-		prerequisite = { focus = BRT_deal_vv }
+		prerequisite = { focus = BRT_guinevere_deal_cult }
 		prerequisite = { focus = BRT_charles_house_arrest }
 
 
 
 
 
-		relative_position_id = BRT_deal_vv
+		relative_position_id = BRT_guinevere_deal_cult
 
 
 		
