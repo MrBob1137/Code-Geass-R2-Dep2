@@ -630,6 +630,9 @@ country_event = { #VV Things
 
 	option = {
 		name = BRT.13.a
+		BRT = {
+			activate_advisor = BRT_VV_Exotic
+		}
 	}
 }
 
@@ -643,6 +646,12 @@ fire_only_once = yes
 
 option = {
 	name = BRT.14.a
+	BRT = {
+		activate_advisor = BRT_exotic_interior_1
+	}
+	BRT = {
+		activate_advisor = BRT_odysseus_Exotic
+	}
 }
 }
 
@@ -661,7 +670,10 @@ country_event = {  #Odysseus is no more
 	
 		option = {	
 		name = BRT.15.a
-		remove_ideas = BRT_odysseus_idea
+		completion_reward = {
+			BRT = {
+				retire_character = BRT_odysseus_Exotic
+			}
 		add_stability = -0.05
 		add_political_power = -30
 

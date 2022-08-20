@@ -269,7 +269,6 @@ recruit_character = BRT_generic_army_1
 recruit_character = BRT_monica
 recruit_character = BRT_luciano
 recruit_character = BRT_ernst
-recruit_character = BRT_testCharacter
 
 
 create_navy_leader = {
