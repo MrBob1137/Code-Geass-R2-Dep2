@@ -1,15 +1,15 @@
 focus_tree = {
 	id = FRANCE.1ST
-	country = FRA {
+	country = {
 		factor = 0
 		modifier = {
 			add = 10
 			tag = FRA
 		}
 	}
+	default = no
 
-	continuous_focus_position = { x = 20 y = 1230 }
-	
+	continuous_focus_position = { x = 20 y = 2500 }
 	#Focus for Liberty, Equality and Fraternity....
 	focus = {
 		id = FRA_liberty_equality_and_fraternity
@@ -25,7 +25,6 @@ focus_tree = {
 			add_political_power= 150
 		}
 	}
-
 	#Focus for ...But not for everyone
 	focus = {
 		id = FRA_but_not_for_everyone
@@ -39,7 +38,6 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Our Europia
 	focus = {
 		id = FRA_our_europia
@@ -53,12 +51,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Crisis of Denial
 	focus = {
 		id = FRA_crisis_of_denial
 		icon = GFX_FRA_crisis_of_denial
-		x = 10
+		x = 13
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -67,12 +64,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for The New Aristocracy
 	focus = {
 		id = FRA_the_new_aristocracy
 		icon = GFX_FRA_the_new_aristocracy
-		x = 6
+		x = 10
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -81,12 +77,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for My Dear Colonies
 	focus = {
 		id = FRA_my_dear_colonies
 		icon = GFX_FRA_my_dear_colonies
-		x = 14
+		x = 16
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -95,12 +90,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Cleansing the Bureaucracy
 	focus = {
 		id = FRA_cleansing_the_bureaucracy
 		icon = GFX_FRA_cleansing_the_bureaucracy
-		x = 4
+		x = 9
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -109,12 +103,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Fortunate Sons
 	focus = {
 		id = FRA_fortunate_sons
 		icon = GFX_FRA_fortunate_sons
-		x = 8
+		x = 11
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -123,12 +116,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for La Défense Unions
 	focus = {
 		id = FRA_la_dfense_unions
 		icon = GFX_FRA_la_dfense_unions
-		x = 4
+		x = 9
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
@@ -137,12 +129,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Better Saint Cyr
 	focus = {
 		id = FRA_better_saint_cyr
 		icon = GFX_FRA_better_saint_cyr
-		x = 8
+		x = 11
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
@@ -151,12 +142,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Gene Smilas
 	focus = {
 		id = FRA_gene_smilas
 		icon = GFX_FRA_gene_smilas
-		x = 6
+		x = 10
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
@@ -170,12 +160,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for French Colonial Empire
 	focus = {
 		id = FRA_french_colonial_empire
 		icon = GFX_FRA_french_colonial_empire
-		x = 12
+		x = 15
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -184,12 +173,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Gibraltar Summit
 	focus = {
 		id = FRA_gibraltar_summit
 		icon = GFX_FRA_gibraltar_summit
-		x = 12
+		x = 15
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
@@ -198,12 +186,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for European Colonial Empire
 	focus = {
 		id = FRA_european_colonial_empire
 		icon = GFX_FRA_european_colonial_empire
-		x = 16
+		x = 17
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -212,12 +199,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Loan Repayments to the ECB
 	focus = {
 		id = FRA_loan_repayments_to_the_ecb
 		icon = GFX_FRA_loan_repayments_to_the_ecb
-		x = 16
+		x = 17
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
@@ -226,12 +212,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Bradow Von Breisgau
 	focus = {
 		id = FRA_bradow_von_breisgau
 		icon = GFX_FRA_bradow_von_breisgau
-		x = 14
+		x = 16
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
@@ -245,12 +230,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Social Warming
 	focus = {
 		id = FRA_social_warming
 		icon = GFX_FRA_social_warming
-		x = 10
+		x = 13
 		y = 9
 		cost = 10
 		available_if_capitulated = yes
@@ -264,12 +248,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
-	#Focus for Befriend the Malcal Family
+	#Focus for Befriend the Malcals
 	focus = {
-		id = FRA_befriend_the_malcal_family
-		icon = GFX_FRA_befriend_the_malcal_family
-		x = 12
+		id = FRA_befriend_the_malcals
+		icon = GFX_FRA_befriend_the_malcals
+		x = 14
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
@@ -278,26 +261,24 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Industrial Planification
 	focus = {
 		id = FRA_industrial_planification
 		icon = GFX_FRA_industrial_planification
-		x = 12
+		x = 14
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = FRA_befriend_the_malcal_family }
+		prerequisite = { focus = FRA_befriend_the_malcals }
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
 	#Focus for Mobilize the Gendarmes!
 	focus = {
 		id = FRA_mobilize_the_gendarmes
 		icon = GFX_FRA_mobilize_the_gendarmes
-		x = 8
+		x = 12
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
@@ -306,12 +287,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Public Arrests
 	focus = {
 		id = FRA_public_arrests
 		icon = GFX_FRA_public_arrests
-		x = 8
+		x = 12
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
@@ -320,12 +300,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Social Status Quo
 	focus = {
 		id = FRA_social_status_quo
 		icon = GFX_FRA_social_status_quo
-		x = 10
+		x = 13
 		y = 12
 		cost = 10
 		available_if_capitulated = yes
@@ -339,12 +318,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Crisis of Grudges
 	focus = {
 		id = FRA_crisis_of_grudges
 		icon = GFX_FRA_crisis_of_grudges
-		x = 30
+		x = 27
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -353,12 +331,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Ungrateful Allies
 	focus = {
 		id = FRA_ungrateful_allies
 		icon = GFX_FRA_ungrateful_allies
-		x = 26
+		x = 24
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -367,12 +344,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Return of the Colonies
 	focus = {
 		id = FRA_return_of_the_colonies
 		icon = GFX_FRA_return_of_the_colonies
-		x = 24
+		x = 23
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -381,12 +357,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Germanic Privilege
 	focus = {
 		id = FRA_germanic_privilege
 		icon = GFX_FRA_germanic_privilege
-		x = 28
+		x = 25
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -395,12 +370,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Old Entente
 	focus = {
 		id = FRA_old_entente
 		icon = GFX_FRA_old_entente
-		x = 26
+		x = 24
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
@@ -414,12 +388,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for The Eastern Question
 	focus = {
 		id = FRA_the_eastern_question
 		icon = GFX_FRA_the_eastern_question
-		x = 34
+		x = 30
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -428,12 +401,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Favour the Danube
 	focus = {
 		id = FRA_favour_the_danube
 		icon = GFX_FRA_favour_the_danube
-		x = 32
+		x = 29
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -442,12 +414,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Soft Power
 	focus = {
 		id = FRA_soft_power
 		icon = GFX_FRA_soft_power
-		x = 36
+		x = 31
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -456,12 +427,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for My Bear Friend
 	focus = {
 		id = FRA_my_bear_friend
 		icon = GFX_FRA_my_bear_friend
-		x = 34
+		x = 30
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
@@ -475,12 +445,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Gandolfi
 	focus = {
 		id = FRA_gandolfi
 		icon = GFX_FRA_gandolfi
-		x = 30
+		x = 27
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
@@ -494,12 +463,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for French Europia
 	focus = {
 		id = FRA_french_europia
 		icon = GFX_FRA_french_europia
-		x = 30
+		x = 27
 		y = 9
 		cost = 10
 		available_if_capitulated = yes
@@ -508,12 +476,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Promote Gandolfi
 	focus = {
 		id = FRA_promote_gandolfi
 		icon = GFX_FRA_promote_gandolfi
-		x = 30
+		x = 27
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
@@ -522,12 +489,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Remake Peace
 	focus = {
 		id = FRA_remake_peace
 		icon = GFX_FRA_remake_peace
-		x = 30
+		x = 27
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
@@ -536,12 +502,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Memories of the Great War
 	focus = {
 		id = FRA_memories_of_the_great_war
 		icon = GFX_FRA_memories_of_the_great_war
-		x = 30
+		x = 27
 		y = 12
 		cost = 10
 		available_if_capitulated = yes
@@ -550,7 +515,6 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Terra Cognita
 	focus = {
 		id = FRA_terra_cognita
@@ -569,7 +533,6 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Legislative Cohabitation
 	focus = {
 		id = FRA_legislative_cohabitation
@@ -588,12 +551,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Smilos Advisors
 	focus = {
 		id = FRA_smilos_advisors
 		icon = GFX_FRA_smilos_advisors
-		x = 18
+		x = 19
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
@@ -602,12 +564,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Breisgou Advisors
 	focus = {
 		id = FRA_breisgou_advisors
 		icon = GFX_FRA_breisgou_advisors
-		x = 22
+		x = 21
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
@@ -616,7 +577,6 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Inconsistent Policy
 	focus = {
 		id = FRA_inconsistent_policy
@@ -635,12 +595,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Purple Gold
 	focus = {
 		id = FRA_purple_gold
 		icon = GFX_FRA_purple_gold
-		x = 50
+		x = 45
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -648,12 +607,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Knightmares
 	focus = {
 		id = FRA_knightmares
 		icon = GFX_FRA_knightmares
-		x = 45
+		x = 40
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -662,12 +620,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Gigantic Weapons
 	focus = {
 		id = FRA_gigantic_weapons
 		icon = GFX_FRA_gigantic_weapons
-		x = 42
+		x = 37
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -676,12 +633,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Factspheres
 	focus = {
 		id = FRA_factspheres
 		icon = GFX_FRA_factspheres
-		x = 45
+		x = 40
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -690,12 +646,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Landspinners
 	focus = {
 		id = FRA_landspinners
 		icon = GFX_FRA_landspinners
-		x = 48
+		x = 43
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -704,12 +659,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Design a Frame
 	focus = {
 		id = FRA_design_a_frame
 		icon = GFX_FRA_design_a_frame
-		x = 45
+		x = 40
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -726,12 +680,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Sophie Randle
 	focus = {
 		id = FRA_sophie_randle
 		icon = GFX_FRA_sophie_randle
-		x = 43
+		x = 38
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -740,12 +693,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Panzer Hummel
 	focus = {
 		id = FRA_panzer_hummel
 		icon = GFX_FRA_panzer_hummel
-		x = 43
+		x = 38
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -754,12 +706,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Anna Clément
 	focus = {
 		id = FRA_anna_clment
 		icon = GFX_FRA_anna_clment
-		x = 47
+		x = 42
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -768,12 +719,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Alexander
 	focus = {
 		id = FRA_alexander
 		icon = GFX_FRA_alexander
-		x = 47
+		x = 42
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -782,12 +732,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Army of Steel
 	focus = {
 		id = FRA_army_of_steel
 		icon = GFX_FRA_army_of_steel
-		x = 45
+		x = 40
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
@@ -801,12 +750,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Space
 	focus = {
 		id = FRA_space
 		icon = GFX_FRA_space
-		x = 55
+		x = 50
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -815,12 +763,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Paris Conference
 	focus = {
 		id = FRA_paris_conference
 		icon = GFX_FRA_paris_conference
-		x = 55
+		x = 50
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -829,12 +776,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Joe Wise
 	focus = {
 		id = FRA_joe_wise
 		icon = GFX_FRA_joe_wise
-		x = 55
+		x = 50
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -843,12 +789,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Orbital Program
 	focus = {
 		id = FRA_orbital_program
 		icon = GFX_FRA_orbital_program
-		x = 55
+		x = 50
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -857,12 +802,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Weisswolf Space Centre
 	focus = {
 		id = FRA_weisswolf_space_centre
 		icon = GFX_FRA_weisswolf_space_centre
-		x = 55
+		x = 50
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -871,12 +815,11 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Scientific Enthusiasm
 	focus = {
 		id = FRA_scientific_enthusiasm
 		icon = GFX_FRA_scientific_enthusiasm
-		x = 55
+		x = 50
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
@@ -885,6 +828,7 @@ focus_tree = {
 			factor = 1
 		}
 	}
+
 
 	#Focus for Britannias' Revenge
 	focus = {
@@ -1767,3 +1711,5 @@ focus_tree = {
 
 #End of focuses 
  }
+
+

@@ -198,7 +198,7 @@ A11_Decadence = {
 
 		visible = {
 			AND = {
-			check_variable = { A11_Chosen_Field = 2 }
+			check_variable = { A11_Chosen_Field = 3 }
             check_variable = { Civil_Decadence > 0 }
 		    }
 		}
@@ -244,7 +244,7 @@ A11_Decadence = {
 
 		visible = {
 			AND = {
-			check_variable = { A11_Chosen_Field = 2 }
+			check_variable = { A11_Chosen_Field = 3 }
             check_variable = { Civil_Decadence > 0 }
 		    }
 		}
@@ -286,7 +286,7 @@ A11_Decadence = {
 
 		visible = {
 			AND = {
-			check_variable = { A11_Chosen_Field = 2 }
+			check_variable = { A11_Chosen_Field = 3 }
             check_variable = { Civil_Decadence > 0 }
 		    }
 		}
@@ -333,7 +333,7 @@ A11_Decadence = {
 
 		visible = {
 			AND = {
-			check_variable = { A11_Chosen_Field = 2 }
+			check_variable = { A11_Chosen_Field = 3 }
             check_variable = { Civil_Decadence > 0 }
 		    }
 		}
@@ -378,7 +378,7 @@ A11_Decadence = {
 
 		visible = {
 			AND = {
-			check_variable = { A11_Chosen_Field = 3 }
+			check_variable = { A11_Chosen_Field = 2 }
             check_variable = { Gov_Decadence > 0 }
 		    }
 		}
@@ -421,7 +421,7 @@ A11_Decadence = {
 
 		visible = {
 			AND = {
-			check_variable = { A11_Chosen_Field = 3 }
+			check_variable = { A11_Chosen_Field = 2 }
             check_variable = { Gov_Decadence > 0 }
 		    }
 		}
@@ -467,7 +467,7 @@ A11_Decadence = {
 
 		visible = {
 			AND = {
-			check_variable = { A11_Chosen_Field = 3 }
+			check_variable = { A11_Chosen_Field = 2 }
             check_variable = { Gov_Decadence > 0 }
 		    }
 		}
@@ -513,7 +513,7 @@ A11_Decadence = {
 
 		visible = {
 			AND = {
-			check_variable = { A11_Chosen_Field = 3 }
+			check_variable = { A11_Chosen_Field = 2 }
             check_variable = { Gov_Decadence > 0 }
 		    }
 		}
@@ -552,7 +552,7 @@ A11_Decadence = {
 
 	A11_general_increase_decadence = {
 
-		days_mission_timeout = 20
+		days_mission_timeout = 35
 		is_good = no
 		fire_only_once = no
 		cancel_if_not_visible = yes
@@ -579,15 +579,17 @@ A11_Decadence = {
 		}
 
 		visible = {
+			AND = {
 				OR = {
 					check_variable = { A11_Chosen_Field = 1 }
-					check_variable = { A11_Chosen_Field = 2 }
+					check_variable = { A11_Chosen_Field = 3 }
 					check_variable = { A11_Chosen_Field = 3 }
 
 				}
 				check_variable = { Gov_Decadence < 100 }
 				check_variable = { Army_Decadence < 100 }
 				check_variable = { Civil_Decadence < 100 }
+			}
 	
 	    }
 

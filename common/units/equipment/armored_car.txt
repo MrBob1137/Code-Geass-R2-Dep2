@@ -30,7 +30,7 @@ equipments = {
 		defense 		= 3
 		breakthrough 	= 16
 		hardness 		= 0.65
-		armor_value 	= 10
+		armor_value 	= 15
 
 		#Offensive Abilities
 		soft_attack 	= 13
@@ -39,7 +39,7 @@ equipments = {
 		air_attack 		= 0
 
 		#Space taken in convoy
-		lend_lease_cost = 10
+		lend_lease_cost = 4
 		
 		build_cost_ic 	= 6
 		resources = {
@@ -61,20 +61,20 @@ equipments = {
 		
 
 		#Misc Abilities
-		maximum_speed 	= 9
+		maximum_speed 	= 16
 		reliability 	= 0.8
 		#recon 			= 1
 
 		#Defensive Abilities
-		defense 		= 2
-		breakthrough 	= 12
-		armor_value 	= 3
+		defense 		= 6
+		breakthrough 	= 20
+		armor_value 	= 15
 
 		#Offensive Abilities
-		soft_attack 	= 6
-		hard_attack 	= 2
-		ap_attack 		= 6
-		air_attack 		= 0
+		soft_attack 	= 12
+		hard_attack 	= 6
+		ap_attack 		= 20
+		air_attack 		= 4
 
 		build_cost_ic 		= 4 
 		fuel_consumption 	= 0.8
@@ -102,20 +102,20 @@ equipments = {
 		is_convertable = yes
 
 		#Misc Abilities
-		maximum_speed 	= 15
+		maximum_speed 	= 24
 
 		#Defensive Abilities
-		defense 		= 5
-		breakthrough 	= 28
+		defense 		= 8
+		breakthrough 	= 30
 		hardness 		= 0.70
-		armor_value 	= 20
+		armor_value 	= 25
 		#recon 			= 2
 
 		#Offensive Abilities
 		soft_attack 	= 16
 		hard_attack 	= 8
-		ap_attack 		= 36
-		air_attack 		= 0		
+		ap_attack 		= 28
+		air_attack 		= 10		
 		
 		build_cost_ic = 8
 		resources = {
@@ -136,21 +136,21 @@ equipments = {
 		is_convertable = yes
 
 		#Misc Abilities
-		maximum_speed 	= 16
+		maximum_speed 	= 35
 		reliability 	= 0.8
 		#recon 			= 1
 
 		#Defensive Abilities
-		defense 		= 6
-		breakthrough 	= 28
+		defense 		= 12
+		breakthrough 	= 42
 		hardness 		= 0.70
-		armor_value 	= 20
+		armor_value 	= 30
 
 		#Offensive Abilities
-		soft_attack 	= 12
-		hard_attack 	= 14
-		ap_attack 		= 62
-		air_attack 		= 0
+		soft_attack 	= 32
+		hard_attack 	= 16
+		ap_attack 		= 34
+		air_attack 		= 14
 		
 		build_cost_ic 	= 9
 		resources = {
@@ -172,23 +172,23 @@ equipments = {
 		is_convertable = yes
 
 		#Misc Abilities
-		maximum_speed 	= 20
+		maximum_speed 	= 46
 		reliability 	= 0.8
 		#recon 			= 1
 
 		#Defensive Abilities
-		defense 		= 10
-		breakthrough 	= 30
+		defense 		= 16
+		breakthrough 	= 60
 		hardness 		= 0.70
-		armor_value 	= 20
+		armor_value 	= 40
 
 		#Offensive Abilities
-		soft_attack 	= 14
-		hard_attack 	= 18
+		soft_attack 	= 44
+		hard_attack 	= 22
 		ap_attack 		= 62
 		air_attack 		= 0
 		
-		build_cost_ic 	= 9
+		build_cost_ic 	= 12
 		resources = {
 			#oil 		= 1
 			steel 		= 2

@@ -136,8 +136,68 @@ spriteTypes = {
 		textureFile = "gfx/interface/autonomy/eu_protectorate.dds"
 	}
 
-
-
+    #Russia
+	SpriteType = {
+		name = "GFX_idea_RUS_Agrarian_economy"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Agrarian_economy.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Army_committees"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Army_committees.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Weak_Republican_army"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Weak_Republican_army.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Сorrupt_government"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Сorrupt_government.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Russian_nationalism"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Russian_nationalism.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_low_level_education"
+		texturefile = "gfx/interface/ideas/RUS/RUS_low_level_education.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Economical_crisis"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Economical_crisis.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_EU_loans"
+		texturefile = "gfx/interface/ideas/RUS/RUS_EU_loans.dds"	
+	}
+    #France
+	SpriteType = {
+		name = "GFX_idea_mother_of_the_revolution"
+		texturefile = "gfx/interface/ideas/FRA/mother_of_the_revolution.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_guardian_of_europia"
+		texturefile = "gfx/interface/ideas/FRA/guardian_of_europia.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_corrupt_bureaucracy"
+		texturefile = "gfx/interface/ideas/FRA/corrupt_bureaucracy.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_the_new_aristocracy"
+		texturefile = "gfx/interface/ideas/FRA/the_new_aristocracy.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_sluggish_industry"
+		texturefile = "gfx/interface/ideas/FRA/sluggish_industry.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_technological_pride"
+		texturefile = "gfx/interface/ideas/FRA/technological_pride.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_memories_of_the_great_war"
+		texturefile = "gfx/interface/ideas/FRA/memories_of_the_great_war.dds"	
+	}
     #Area11
 	SpriteType = {
 		name = "GFX_idea_A11_honorary_britannians"

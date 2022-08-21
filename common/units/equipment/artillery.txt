@@ -24,15 +24,20 @@ equipments = {
 		armor_value = 90
 
 		#Offensive Abilities
-		soft_attack = 20
+<<<<<<< Updated upstream
+		soft_attack = 40
 		hard_attack = 220
+=======
+		soft_attack = 20
+		hard_attack = 185
+>>>>>>> Stashed changes
 		ap_attack = 120
 		air_attack = 0
 
 		#Space taken in convoy
 		lend_lease_cost = 4
 		
-		build_cost_ic = 150
+		build_cost_ic = 120
 		resources = {
 			tungsten = 3
 			steel = 5
@@ -67,7 +72,7 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 10
-		breakthrough = 6
+		breakthrough = 2
 		hardness = 0
 		armor_value = 0
 
@@ -80,7 +85,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 4
 		
-		build_cost_ic = 3.5
+		build_cost_ic = 6.5
 		resources = {
 			tungsten = 1
 			steel = 2
@@ -105,10 +110,19 @@ equipments = {
 		
 		armor_value = 20
 		defense = 15
+<<<<<<< Updated upstream
 		breakthrough = 4
 		soft_attack = 30
 		
-		build_cost_ic = 8.5
+		build_cost_ic = 12.5
+=======
+		breakthrough = 12
+		soft_attack = 40
+		hardness = 0.6
+
+		maximum_speed = 6		
+		build_cost_ic = 12
+>>>>>>> Stashed changes
 		resources = {
 			tungsten = 1
 			steel = 2
@@ -125,10 +139,15 @@ equipments = {
 
 		armor_value = 25
 		defense = 18
-		breakthrough = 6
-		soft_attack = 45
+		breakthrough = 15
+		soft_attack = 56
+		hardness = 0.65
 		
-		build_cost_ic = 12
+<<<<<<< Updated upstream
+=======
+		maximum_speed = 9
+>>>>>>> Stashed changes
+		build_cost_ic = 16
 		resources = {
 			tungsten = 1
 			steel = 3
@@ -145,10 +164,16 @@ equipments = {
 		
 		armor_value = 40
 		defense = 22
-		breakthrough = 8
-		soft_attack = 68
+		breakthrough = 18
+		soft_attack = 88
+		hardness = 0.7
 		
-		build_cost_ic = 15
+<<<<<<< Updated upstream
+		build_cost_ic = 24
+=======
+		maximum_speed = 12
+		build_cost_ic = 22
+>>>>>>> Stashed changes
 		resources = {
 			tungsten = 2
 			steel = 3
@@ -165,11 +190,17 @@ equipments = {
 		visual_level = 2
 		
 		defense = 25
-		breakthrough = 14
-		soft_attack = 90
-		armor_value = 60
+		breakthrough = 21
+		soft_attack = 140
+		armor_value = 65
+		hardness = 0.75
 		
-		build_cost_ic = 22
+<<<<<<< Updated upstream
+		build_cost_ic = 32
+=======
+		maximum_speed = 24
+		build_cost_ic = 30
+>>>>>>> Stashed changes
 		resources = {
 			sakuradite = 1
 			tungsten = 1
@@ -185,15 +216,18 @@ equipments = {
 		priority = 50
 		visual_level = 2
 		
+
+		hardness = 0.95
 		defense = 50
-		breakthrough = 6
-		soft_attack = 225
-		hard_attack = 100
+		breakthrough = 4
+		soft_attack = 425
+		hard_attack = 90
 		ap_attack = 80
-		armor_value = 90
-		air_attack = 12
+		armor_value = 140
+		air_attack = 0
 		
-		build_cost_ic = 48
+		maximum_speed = 6
+		build_cost_ic = 90
 		resources = {
 			sakuradite = 2
 			tungsten = 2
@@ -246,12 +280,14 @@ equipments = {
 		priority = 50
 		visual_level = 0
 
-		build_cost_ic = 8
+		build_cost_ic = 14
+		maximum_speed = 10
 
+		hardness = 0.2
 		defense = 16
 		breakthrough = 25
-		soft_attack = 48
-		armor_value = 2
+		soft_attack = 62
+		armor_value = 16
 	}
 	
 	modern_artillery_2 = {
@@ -262,12 +298,14 @@ equipments = {
 		priority = 50
 		visual_level = 1
 		
-		armor_value = 5
+		hardness = 0.3
+		armor_value = 24
 		defense = 18
 		breakthrough = 40
-		soft_attack = 85
+		soft_attack = 90
 		
-		build_cost_ic = 12
+		maximum_speed = 18
+		build_cost_ic = 20
 		resources = {
 			tungsten = 3
 			steel = 1
@@ -282,13 +320,14 @@ equipments = {
 		priority = 50
 		visual_level = 1
 
-		armor_value = 10
+		hardness = 0.7
+		armor_value = 70
 		defense = 20
 		breakthrough = 80
-		soft_attack = 150
+		soft_attack = 175
 		hard_attack = 20
 		
-		build_cost_ic = 28
+		build_cost_ic = 18
 		resources = {
 			sakuradite = 1
 			tungsten = 2
