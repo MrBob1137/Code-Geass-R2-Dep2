@@ -84,7 +84,6 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
 			country_event = BRT.15
 			
 		}
@@ -491,7 +490,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			remove_ideas = BRT_generic_noble_1_idea
+			BRT = {
+				retire_character = BRT_exotic_noble_1
+			}
 		}
 	}
 
@@ -666,7 +667,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			remove_ideas = BRT_generic_minister_1_idea
+			BRT = {
+				retire_character = BRT_Exotic_minister_1
+			}
 		}
 	}
 
@@ -956,7 +959,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			remove_ideas = BRT_generic_general_1_idea
+			BRT = {
+				retire_character = BRT_exotic_interior_1
+			}
 		}
 	}
 

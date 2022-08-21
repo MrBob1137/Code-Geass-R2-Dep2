@@ -630,6 +630,9 @@ country_event = { #VV Things
 
 	option = {
 		name = BRT.13.a
+		BRT = {
+			activate_advisor = BRT_VV_Exotic
+		}
 	}
 }
 
@@ -643,6 +646,12 @@ fire_only_once = yes
 
 option = {
 	name = BRT.14.a
+	BRT = {
+		activate_advisor = BRT_exotic_interior_1
+	}
+	BRT = {
+		activate_advisor = BRT_odysseus_Exotic
+	}
 }
 }
 
@@ -661,7 +670,10 @@ country_event = {  #Odysseus is no more
 	
 		option = {	
 		name = BRT.15.a
-		remove_ideas = BRT_odysseus_idea
+		completion_reward = {
+			BRT = {
+				retire_character = BRT_odysseus_Exotic
+			}
 		add_stability = -0.05
 		add_political_power = -30
 
@@ -1173,6 +1185,8 @@ country_event = {   #Schneizel Wins
 		name = BRT.28.a
 		hidden_effect = {
 			load_focus_tree = britannia_schneizel
+			add_ideas = brown_purists_part_1
+			add_ideas = red_purists_part_1
 		}
 
 	
@@ -1219,10 +1233,285 @@ country_event = {   #Schneizel Wins
 		
 		
 	}
+}
+
+
+    country_event = {   #Schnizel's Assension
+    id = BRT.30
+    title = BRT.30.t
+    desc = BRT.30.d
 	
-		
-		
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = BRT.30.a	
+
+		ai_chance = {
+			factor = 70
+		}
 	}
+}
+
+country_event = {   #Support Knights
+id = BRT.31
+title = BRT.31.t
+desc = BRT.31.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.31.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Charles Talk
+id = BRT.32
+title = BRT.32.t
+desc = BRT.32.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.32.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Deal Guinevere
+id = BRT.33
+title = BRT.33.t
+desc = BRT.33.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.33.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Endorsment Odysseus
+id = BRT.34
+title = BRT.34.t
+desc = BRT.34.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.34.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Rule Supreme
+id = BRT.35
+title = BRT.35.t
+desc = BRT.35.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.35.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #National Security
+id = BRT.36
+title = BRT.36.t
+desc = BRT.36.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.36.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Forign Policy
+id = BRT.37
+title = BRT.37.t
+desc = BRT.37.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.37.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Prep for Great Homecoming
+id = BRT.38
+title = BRT.38.t
+desc = BRT.38.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.38.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Funding Russian Loyalists
+id = BRT.39
+title = BRT.39.t
+desc = BRT.39.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.39.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Send Monica
+id = BRT.40
+title = BRT.40.t
+desc = BRT.40.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.40.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Stir up Separatists
+id = BRT.41
+title = BRT.41.t
+desc = BRT.41.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.41.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+
+country_event = {   #Operation White Bear
+id = BRT.42
+title = BRT.42.t
+desc = BRT.42.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.42.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {   #Influence EU Colonies
+id = BRT.43
+title = BRT.43.t
+desc = BRT.43.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.43.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {  #Guinevere Wins
+id = BRT.44
+title = BRT.44.t
+desc = BRT.44.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.44.a	
+	BRT = {
+		activate_advisor = BRT_guinevere_idea
+	}
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {  #Guinevere's Speech
+id = BRT.45
+title = BRT.45.t
+desc = BRT.45.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.45.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
 
 
 

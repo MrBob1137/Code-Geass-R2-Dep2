@@ -50,13 +50,8 @@ focus_tree = {
 		completion_reward = {
 			          country_event = BRT.13
 		  hidden_effect = {
-			add_ideas = {
-				BRT_VV_idea
-				BRT_odysseus_idea
-				BRT_generic_noble_1_idea
-				BRT_generic_general_1_idea
-				BRT_generic_minister_1_idea
-				BRT_generic_army_1_idea
+			BRT = {
+				activate_advisor = BRT_VV_
 			}
 		}
 		}
@@ -90,19 +85,11 @@ focus_tree = {
 		completion_reward = {
             country_event = BRT.14
 			hidden_effect = {
-			add_ideas = {
-				BRT_VV_idea
-				BRT_odysseus_idea
-				BRT_generic_noble_1_idea
-				BRT_generic_general_1_idea
-				BRT_generic_minister_1_idea
-				BRT_generic_army_1_idea
-			}
 		}
 		}
 	}
 
-    		focus = {
+    	focus = {
 		id = BRT_assassination
 		icon = GFX_BRT_assassination
 		x = 14

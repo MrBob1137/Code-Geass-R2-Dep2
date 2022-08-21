@@ -16,7 +16,6 @@ focus_tree = {
 		}
 	}
 	
-
 	default = no
 
 	continuous_focus_position = { x = 20 y = 2500 }
@@ -33,8 +32,9 @@ focus_tree = {
 			factor = 100
 		}
 
-		available = {		
-		country_exists = BRT
+		available = {
+			country_exists = BRT
+			has_completed_focus =  BRT_national_security_prog
 
 		}
 
@@ -47,6 +47,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.37
 		  hidden_effect = {
 		}
 		}
@@ -84,6 +85,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+		country_event = BRT.38
 		  hidden_effect = {
 		}
 		}
@@ -119,6 +121,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_ideas = The_Great_Homecoming_Phase_1
 		  hidden_effect = {
 		}
 		}
@@ -155,6 +158,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.43
 		  hidden_effect = {
 		}
 		}
@@ -190,6 +194,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.39
 		  hidden_effect = {
 		}
 		}
@@ -225,6 +230,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.40
 		  hidden_effect = {
 		}
 		}
@@ -260,6 +266,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.41
 		  hidden_effect = {
 		}
 		}
@@ -295,6 +302,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.42
 		  hidden_effect = {
 		}
 		}
@@ -977,6 +985,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			LBA = {
+				add_popularity = {
+					ideology = autocracy
+					popularity = 0.20
+				}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1120,6 +1134,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			LBA = {
+				give_military_access = BRT
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1155,6 +1172,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			SAF = {
+				add_popularity = {
+					ideology = autocracy
+					popularity = 0.20
+				}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1190,6 +1213,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 5000
+				target = SAF
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1225,6 +1253,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			SAF = {
+				add_war_support = 0.2
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1261,7 +1292,18 @@ focus_tree = {
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
+
 		completion_reward = {
+			add_opinion_modifier = {
+				target = SAF
+				modifier = brittanian_support
+			}
+			SAF = {
+				add_opinion_modifier = {
+					target = BRT
+					modifier = brittanian_support
+				}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1297,6 +1339,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			SAF = {
+				give_military_access = BRT
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1331,6 +1376,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.30
 		  hidden_effect = {
 		}
 		}
@@ -1365,6 +1411,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.31
 		  hidden_effect = {
 		}
 		}
@@ -1400,6 +1447,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.32
 		  hidden_effect = {
 		}
 		}
@@ -1435,6 +1483,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.33
 		  hidden_effect = {
 		}
 		}
@@ -1470,6 +1519,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.34
 		  hidden_effect = {
 		}
 		}
@@ -1505,6 +1555,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_popularity = {
+				ideology = autocracy
+				popularity = 0.1
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1540,6 +1594,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_stability = 0.05
 		  hidden_effect = {
 		}
 		}
@@ -1577,6 +1632,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_political_power = 100
 		  hidden_effect = {
 		}
 		}
@@ -1612,6 +1668,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.35
 		  hidden_effect = {
 		}
 		}
@@ -1647,6 +1704,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.36
 		  hidden_effect = {
 		}
 		}
@@ -1682,6 +1740,18 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_2
+				remove_idea = brown_purists_part_1
+			}
+			}
+			BRT = {
+				swap_ideas = {
+				add_idea = red_purists_part_2
+				remove_idea = red_purists_part_1
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1717,6 +1787,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = red_purists_part_3
+				remove_idea = red_purists_part_2
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1752,6 +1828,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = red_purists_part_4
+				remove_idea = red_purists_part_3
+			}
+			}			
 		  hidden_effect = {
 		}
 		}
@@ -1787,6 +1869,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = red_purists_part_5
+				remove_idea = red_purists_part_4
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1822,6 +1910,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = red_purists_part_6
+				remove_idea = red_purists_part_5
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1857,6 +1951,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = red_purists_part_7
+				remove_idea = red_purists_part_6
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1892,6 +1992,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_3
+				remove_idea = brown_purists_part_2
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2068,6 +2174,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_4
+				remove_idea = brown_purists_part_3
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2103,6 +2215,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_5
+				remove_idea = brown_purists_part_4
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2139,6 +2257,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_6
+				remove_idea = brown_purists_part_5
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2174,6 +2298,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_7
+				remove_idea = brown_purists_part_6
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2211,6 +2341,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = brown_purists_part_8
+				remove_idea = brown_purists_part_7
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2249,6 +2385,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				add_ideas = clean_administration
+				remove_ideas = brown_purists_part_8
+				remove_ideas = red_purists_part_7
+			}
 		  hidden_effect = {
 		}
 		}
@@ -2998,7 +3139,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
+		completion_reward = { 
+			BRT = {
+				add_political_power = 100
+				add_ideas = osi_phase_1
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3034,6 +3179,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = rsi_phase_2
+				remove_idea = rsi_phase_1
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3068,7 +3219,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
+		completion_reward = { 
+			BRT = {
+				swap_ideas = {
+				add_idea = rsi_phase_3
+				remove_idea = rsi_phase_2
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3104,6 +3261,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				remove_ideas = rsi_phase_3
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3140,6 +3300,18 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = osi_phase_5
+				remove_idea = osi_phase_4
+			}
+			}
+			BRT = {
+			create_intelligence_agency = {
+				name = "OSI"
+				icon = GFX_intelligence_agency_logo_pol
+			}
+		    }	
 		  hidden_effect = {
 		}
 		}
@@ -3175,6 +3347,13 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				add_political_power = 100
+				swap_ideas = {
+				add_idea = osi_phase_6
+				remove_idea = osi_phase_5
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3210,6 +3389,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			A11 = {
+				A11_Gov_improve_Low = yes
+				A11_army_improve_Low = yes
+				A11_civil_improve_Low = yes
+            }
 		  hidden_effect = {
 		}
 		}
@@ -3245,6 +3429,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			AR2 = {
+                remove_ideas = wild_tribes
+            } 
 		  hidden_effect = {
 		}
 		}
@@ -3283,6 +3470,13 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				add_political_power = 100
+				swap_ideas = {
+				add_idea = osi_phase_7
+				remove_idea = osi_phase_6
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3353,6 +3547,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			A10 = {
+                remove_ideas = admirals_fiefdom
+            } 
 		  hidden_effect = {
 		}
 		}
@@ -3387,7 +3584,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
+		completion_reward = { 
+			BRT = {
+				swap_ideas = {
+				add_idea = osi_phase_2
+				remove_idea = osi_phase_1
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3422,7 +3625,14 @@ focus_tree = {
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
+		completion_reward = { 
+			add_political_power = 100
+			BRT = {
+				swap_ideas = {
+				add_idea = osi_phase_3
+				remove_idea = osi_phase_2
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -3457,7 +3667,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
+		completion_reward = { 
+			BRT = {
+				swap_ideas = {
+				add_idea = osi_phase_4
+				remove_idea = osi_phase_3
+			}
+			}
 		  hidden_effect = {
 		}
 		}

@@ -16,7 +16,6 @@ focus_tree = {
 		}
 	}
 	
-
 	default = no
 
 	continuous_focus_position = { x = 20 y = 2500 }
@@ -47,6 +46,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.44
 		  hidden_effect = {
 		}
 		}
@@ -83,6 +83,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				retire_character = BRT_schneizel
+			}
 		  hidden_effect = {
 		}
 		}
@@ -688,7 +691,7 @@ focus_tree = {
 
 		available = {		
 		country_exists = BRT
-
+		has_completed_focus = BRT_dustle_settles
 		}
 
 		bypass = {
@@ -700,6 +703,8 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_political_power = 100
+			add_stability = -0.40
 		  hidden_effect = {
 		}
 		}
@@ -742,6 +747,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.45
 		  hidden_effect = {
 		}
 		}
@@ -784,6 +790,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_popularity{
+				ideology = autocracy
+				popularity = 0.1
+			}
 		  hidden_effect = {
 		}
 		}
@@ -825,6 +835,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_ideas = G_Youth_Militias
 		  hidden_effect = {
 		}
 		}

@@ -1,7 +1,7 @@
 JAP_post_war_struggle = {
 
     
-	set_variable = { struggle_begins = 1 }
+	set_variable = { JAP_struggle_begins = 1 }
 
 	#Self Explanatory
 	

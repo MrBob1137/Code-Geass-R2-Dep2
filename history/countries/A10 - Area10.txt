@@ -57,6 +57,7 @@ set_convoys = 500
 
 add_ideas = {
 quota_level_1
+admirals_fiefdom
 }
 
 create_country_leader = {

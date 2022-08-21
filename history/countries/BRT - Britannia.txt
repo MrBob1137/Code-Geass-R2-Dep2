@@ -237,7 +237,8 @@ add_ideas = {
 	extensive_conscription
 	export_focus
 	partial_economic_mobilisation
-	ai_brt_war 
+	ai_brt_war
+	rsi_phase_1
 }
 recruit_character = charles_brt
 recruit_character = aristocrats_brt
@@ -254,13 +255,13 @@ recruit_character = Andreas_Darlton
 recruit_character = Seira_Barton
 recruit_character = Dot_Worsley
 recruit_character = Bartley_Asprius
-recruit_character = BRT_odysseus
-recruit_character = BRT_generic_general_1
+recruit_character = BRT_odysseus_Exotic
+recruit_character = BRT_exotic_interior_1
 recruit_character = BRT_schneizel
 recruit_character = BRT_guinevere
-recruit_character = BRT_generic_noble_1
-recruit_character = BRT_generic_minister_1
-recruit_character = BRT_VV
+recruit_character = BRT_exotic_noble_1
+recruit_character = BRT_Exotic_minister_1
+recruit_character = BRT_VV_Exotic
 recruit_character = BRT_generic_air
 recruit_character = BRT_generic_navy
 recruit_character = BRT_bismark

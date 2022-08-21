@@ -804,8 +804,396 @@ spriteTypes = {
 
     #Britannia
 	SpriteType = {
+		name = "GFX_BRT_counter_influence"
+		texturefile = "gfx/interface/goals/BRT/BRT_counter_influence.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_reach_out_jupiter"
+		texturefile = "gfx/interface/goals/BRT/BRT_reach_out_jupiter.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_restrict_priests_recruit"
+		texturefile = "gfx/interface/goals/BRT/BRT_restrict_priests_recruit.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_isolate_pontiff"
+		texturefile = "gfx/interface/goals/BRT/BRT_isolate_pontiff.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_mantain_pendragon_priests"
+		texturefile = "gfx/interface/goals/BRT/BRT_mantain_pendragon_priests.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_mantain_thought_elevetors"
+		texturefile = "gfx/interface/goals/BRT/BRT_mantain_thought_elevetors.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_partial_clean_up"
+		texturefile = "gfx/interface/goals/BRT/BRT_partial_clean_up.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_send_abroad_high_clergy"
+		texturefile = "gfx/interface/goals/BRT/BRT_send_abroad_high_clergy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_formally_ban_cult"
+		texturefile = "gfx/interface/goals/BRT/BRT_formally_ban_cult.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_total_clean_up"
+		texturefile = "gfx/interface/goals/BRT/BRT_total_clean_up.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_esoterism_no_more"
+		texturefile = "gfx/interface/goals/BRT/BRT_esoterism_no_more.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_special_territory"
+		texturefile = "gfx/interface/goals/BRT/BRT_special_territory.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_deport_remnants"
+		texturefile = "gfx/interface/goals/BRT/BRT_deport_remnants.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_token_defense"
+		texturefile = "gfx/interface/goals/BRT/BRT_token_defense.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_send_supplies"
+		texturefile = "gfx/interface/goals/BRT/BRT_send_supplies.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_improve_ports"
+		texturefile = "gfx/interface/goals/BRT/BRT_improve_ports.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_small_industry"
+		texturefile = "gfx/interface/goals/BRT/BRT_small_industry.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_research_facilities"
+		texturefile = "gfx/interface/goals/BRT/BRT_research_facilities.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_leave_them"
+		texturefile = "gfx/interface/goals/BRT/BRT_leave_them.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_secret_police"
+		texturefile = "gfx/interface/goals/BRT/BRT_secret_police.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_dump_osi"
+		texturefile = "gfx/interface/goals/BRT/BRT_dump_osi.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_forced_retirements"
+		texturefile = "gfx/interface/goals/BRT/BRT_forced_retirements.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_integrate_remnants"
+		texturefile = "gfx/interface/goals/BRT/BRT_integrate_remnants.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_increase_quality"
+		texturefile = "gfx/interface/goals/BRT/BRT_increase_quality.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_swear_to_schneizel"
+		texturefile = "gfx/interface/goals/BRT/BRT_swear_to_schneizel.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_increase_authority"
+		texturefile = "gfx/interface/goals/BRT/BRT_increase_authority.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_create_RSI"
+		texturefile = "gfx/interface/goals/BRT/BRT_create_RSI.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_control_rogue_areas"
+		texturefile = "gfx/interface/goals/BRT/BRT_control_rogue_areas.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_clovis_work"
+		texturefile = "gfx/interface/goals/BRT/BRT_clovis_work.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_luciano_playground"
+		texturefile = "gfx/interface/goals/BRT/BRT_luciano_playground.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_wild_admirals"
+		texturefile = "gfx/interface/goals/BRT/BRT_wild_admirals.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_northen_tribes"
+		texturefile = "gfx/interface/goals/BRT/BRT_northen_tribes.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_order_stability"
+		texturefile = "gfx/interface/goals/BRT/BRT_order_stability.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_take_down_purists"
+		texturefile = "gfx/interface/goals/BRT/BRT_take_down_purists.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_red_purists"
+		texturefile = "gfx/interface/goals/BRT/BRT_red_purists.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_police_universities"
+		texturefile = "gfx/interface/goals/BRT/BRT_police_universities.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_counter_propaganda"
+		texturefile = "gfx/interface/goals/BRT/BRT_counter_propaganda.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_biased_academia"
+		texturefile = "gfx/interface/goals/BRT/BRT_biased_academia.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_clean_intelligentsia"
+		texturefile = "gfx/interface/goals/BRT/BRT_clean_intelligentsia.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_brown_purists"
+		texturefile = "gfx/interface/goals/BRT/BRT_brown_purists.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_pol_commissars"
+		texturefile = "gfx/interface/goals/BRT/BRT_pol_commissars.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_daily_checks"
+		texturefile = "gfx/interface/goals/BRT/BRT_daily_checks.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_disband_worst_units"
+		texturefile = "gfx/interface/goals/BRT/BRT_disband_worst_units.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_demote_radical_off"
+		texturefile = "gfx/interface/goals/BRT/BRT_demote_radical_off.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_investigate_prev_minister"
+		texturefile = "gfx/interface/goals/BRT/BRT_investigate_prev_minister.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_false_allegations"
+		texturefile = "gfx/interface/goals/BRT/BRT_false_allegations.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_legal_purge"
+		texturefile = "gfx/interface/goals/BRT/BRT_legal_purge.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_until_the_end"
+		texturefile = "gfx/interface/goals/BRT/BRT_until_the_end.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_revise_recruit_standards"
+		texturefile = "gfx/interface/goals/BRT/BRT_revise_recruit_standards.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_wipe_them_out"
+		texturefile = "gfx/interface/goals/BRT/BRT_wipe_them_out.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_white_prince_foreign_policy"
+		texturefile = "gfx/interface/goals/BRT/BRT_white_prince_foreign_policy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_great_homecoming"
+		texturefile = "gfx/interface/goals/BRT/BRT_great_homecoming.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_phase_one"
+		texturefile = "gfx/interface/goals/BRT/BRT_phase_one.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_exploit_EU_divisions"
+		texturefile = "gfx/interface/goals/BRT/BRT_exploit_EU_divisions.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_buy_iceland"
+		texturefile = "gfx/interface/goals/BRT/BRT_buy_iceland.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_military_buildup_iceland"
+		texturefile = "gfx/interface/goals/BRT/BRT_military_buildup_iceland.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_proposal_china"
+		texturefile = "gfx/interface/goals/BRT/BRT_proposal_china.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_fund_russian_loyalists"
+		texturefile = "gfx/interface/goals/BRT/BRT_fund_russian_loyalists.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_send_monica"
+		texturefile = "gfx/interface/goals/BRT/BRT_send_monica.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_stir_up_separatists"
+		texturefile = "gfx/interface/goals/BRT/BRT_stir_up_separatists.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_operation_white_bear"
+		texturefile = "gfx/interface/goals/BRT/BRT_operation_white_bear.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_influence_EU_colonies"
+		texturefile = "gfx/interface/goals/BRT/BRT_influence_EU_colonies.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_operation_orange"
+		texturefile = "gfx/interface/goals/BRT/BRT_operation_orange.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_operation_dark_anvil"
+		texturefile = "gfx/interface/goals/BRT/BRT_operation_dark_anvil.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_reach_out_boers"
+		texturefile = "gfx/interface/goals/BRT/BRT_reach_out_boers.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_promises_greatness"
+		texturefile = "gfx/interface/goals/BRT/BRT_promises_greatness.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_infiltrate_bureucracy"
+		texturefile = "gfx/interface/goals/BRT/BRT_infiltrate_bureucracy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_influence_pied_noirs"
+		texturefile = "gfx/interface/goals/BRT/BRT_influence_pied_noirs.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_declare_apartheid_compatible"
+		texturefile = "gfx/interface/goals/BRT/BRT_declare_apartheid_compatible.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_joeannesburg_meeting"
+		texturefile = "gfx/interface/goals/BRT/BRT_joeannesburg_meeting.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_pull_in_companies"
+		texturefile = "gfx/interface/goals/BRT/BRT_pull_in_companies.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_horse_troy"
+		texturefile = "gfx/interface/goals/BRT/BRT_horse_troy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_phase_two"
+		texturefile = "gfx/interface/goals/BRT/BRT_phase_two.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_supply_euro_britannia"
+		texturefile = "gfx/interface/goals/BRT/BRT_supply_euro_britannia.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_undefined_soldiers"
+		texturefile = "gfx/interface/goals/BRT/BRT_undefined_soldiers.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_secure_supply_lines"
+		texturefile = "gfx/interface/goals/BRT/BRT_secure_supply_lines.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_winter_kn"
+		texturefile = "gfx/interface/goals/BRT/BRT_winter_kn.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_goal_urals"
+		texturefile = "gfx/interface/goals/BRT/BRT_goal_urals.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_reveal_our_horses"
+		texturefile = "gfx/interface/goals/BRT/BRT_reveal_our_horses.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_african_blitz"
+		texturefile = "gfx/interface/goals/BRT/BRT_african_blitz.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_send_cornelia"
+		texturefile = "gfx/interface/goals/BRT/BRT_send_cornelia.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_disturb_eu_supplies"
+		texturefile = "gfx/interface/goals/BRT/BRT_disturb_eu_supplies.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_rush_colonies"
+		texturefile = "gfx/interface/goals/BRT/BRT_rush_colonies.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_green_light_china"
+		texturefile = "gfx/interface/goals/BRT/BRT_green_light_china.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_phase_three"
+		texturefile = "gfx/interface/goals/BRT/BRT_phase_three.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_finalise_spartition_plans"
+		texturefile = "gfx/interface/goals/BRT/BRT_finalise_spartition_plans.dds"			
+	}
+	SpriteType = {
 		name = "GFX_BRT_buy_britannian"
 		texturefile = "gfx/interface/goals/BRT/BRT_buy_britannian.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_white_prince_wins"
+		texturefile = "gfx/interface/goals/BRT/BRT_white_prince_wins.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_deal_guinevere"
+		texturefile = "gfx/interface/goals/BRT/BRT_deal_guinevere.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_endorsment_odysseus"
+		texturefile = "gfx/interface/goals/BRT/BRT_endorsment_odysseus.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_support_knights_rounds"
+		texturefile = "gfx/interface/goals/BRT/BRT_support_knights_rounds.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_talk_charles"
+		texturefile = "gfx/interface/goals/BRT/BRT_talk_charles.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_appeal_young_nobles"
+		texturefile = "gfx/interface/goals/BRT/BRT_appeal_young_nobles.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_image_pop"
+		texturefile = "gfx/interface/goals/BRT/BRT_image_pop.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_lobby_senate"
+		texturefile = "gfx/interface/goals/BRT/BRT_lobby_senate.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_rule_supreme"
+		texturefile = "gfx/interface/goals/BRT/BRT_rule_supreme.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_national_security_prog"
+		texturefile = "gfx/interface/goals/BRT/BRT_national_security_prog.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_take_down_cult"
+		texturefile = "gfx/interface/goals/BRT/BRT_take_down_cult.dds"			
 	}
 	SpriteType = {
 		name = "GFX_BRT_economy_science"

@@ -1,11 +1,8 @@
 BRT_post_war_struggle = {
 
-    
+    set_variable = { BRT_struggle_begins = 1}
 	set_variable = { guinevere_power = 0.3 }
-	set_variable = { schneizel_power = 0.35 }
-
-
-	
+	set_variable = { schneizel_power = 0.35 }	
 }
 
 

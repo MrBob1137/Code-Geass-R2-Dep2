@@ -196,7 +196,7 @@ JAP_post_war_struggle = {
 			check_variable = { population_approval > 0 }              
 			tag = JAP  
 			check_variable = {
-				struggle_begins = 1
+				JAP_struggle_begins = 1
 			}
 		}
 
