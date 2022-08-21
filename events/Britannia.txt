@@ -684,7 +684,7 @@ country_event = {  #Odysseus is no more
 		
     }
 
-	
+	}	
 	
 }
 
@@ -1160,10 +1160,8 @@ is_triggered_only = yes
 	}
 	
 	
-}
+	}
 
-	
-	
 }
 
 
