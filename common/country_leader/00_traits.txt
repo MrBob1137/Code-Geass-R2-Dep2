@@ -28,6 +28,17 @@ leader_traits = {
 		}
 	}
 
+		
+	FRA_edouard_herriot_trait = {
+		random = no
+		political_power_factor = -0.10
+		stability_factor = -0.10
+		war_support_factor = -0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	chaos = {
 		random = no
@@ -246,6 +257,17 @@ leader_traits = {
 		encryption = 8.00
 		decryption = 8.00
 		research_speed_factor = 0.03
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	military_police = {
+
+		random = no
+		stability_factor = 0.05
+		decryption = 8.00
+		encryption = 8.00
 		
 		ai_will_do = {
 			factor = 1
@@ -504,6 +526,20 @@ leader_traits = {
 			factor = 3
 		}
 	}
+
+	army_chief_both_1 = { # +10 Offensive and defensive efficiency
+		
+	   army_attack_factor = 0.10
+	   army_defence_factor = 0.10
+	   breakthrough = 0.10			
+	   experience_gain_army = 0.12
+	
+	   command_cap = @tier3
+	
+	   ai_will_do = {
+		   factor = 3
+	    }
+    }
 	
 	army_chief_old_guard = { # Rate at which field experience is gained decreases by 10%
 		experience_gain_army_factor = -0.1	
@@ -2429,6 +2465,19 @@ leader_traits = {
 				factor = 1
 			}
 		}
+		artillery_producer_defense_FRA = {
+			random = no
+			equipment_bonus = {
+				anti_tank_equipment = {
+					defense = 0.15
+					hard_attack = 0.15
+				}
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
 		###############################
 		artillery_producer_mass_0 = {
 			random = no
@@ -2557,6 +2606,24 @@ leader_traits = {
 			}
 			cv_CAS_equipment = {
 				air_ground_attack = 0.1 reliability = 0.1
+			}		
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	CAS_FRA_manufacturer = {
+		random = no
+		equipment_bonus = {
+			CAS_equipment = {
+				air_ground_attack = 0.15 reliability = 0.15
+				air_agility = 0.15 maximum_speed = 0.15
+			}
+			cv_CAS_equipment = {
+				air_ground_attack = 0.15 reliability = 0.15
+				air_agility = 0.15 maximum_speed = 0.15
 			}		
 		}
 		
@@ -3023,6 +3090,45 @@ leader_traits = {
 
 	electronics_developer = {
 		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+		
+	economic_minister_daniel_malcal = {
+
+		random = no
+		political_power_factor = -0.15
+		production_speed_buildings_factor = 0.10
+		production_factory_efficiency_gain_factor = 0.10
+		local_resources_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+		
+	interior_minister_gene_smilas = {
+
+		random = no
+		stability_factor = -0.05
+		war_support_factor = 0.10
+		mobilization_speed = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	bradow_von_breisgau_prime_minister = {
+
+		random = no
+		stability_factor = 0.10
+		war_support_factor = -0.10
+		political_power_factor = 0.30
 		
 		ai_will_do = {
 			factor = 1

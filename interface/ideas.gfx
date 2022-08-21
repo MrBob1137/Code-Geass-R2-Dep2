@@ -141,18 +141,46 @@ spriteTypes = {
 		name = "GFX_idea_RUS_Agrarian_economy"
 		texturefile = "gfx/interface/ideas/RUS/RUS_Agrarian_economy.dds"	
 	}
+<<<<<<< Updated upstream
+=======
+		SpriteType = {
+		name = "GFX_idea_RUS_Agrarian_economy_improved_3"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Agrarian_economy.dds"	
+	}
+>>>>>>> Stashed changes
 	SpriteType = {
 		name = "GFX_idea_RUS_Army_committees"
 		texturefile = "gfx/interface/ideas/RUS/RUS_Army_committees.dds"	
 	}
+<<<<<<< Updated upstream
+=======
+		SpriteType = {
+		name = "GFX_idea_RUS_Army_committees_improved_1"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Army_committees.dds"	
+	}
+>>>>>>> Stashed changes
 	SpriteType = {
 		name = "GFX_idea_RUS_Weak_Republican_army"
 		texturefile = "gfx/interface/ideas/RUS/RUS_Weak_Republican_army.dds"	
 	}
+<<<<<<< Updated upstream
+=======
+		SpriteType = {
+		name = "GFX_idea_RUS_Weak_Republican_army_improved_1"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Weak_Republican_army.dds"	
+	}
+>>>>>>> Stashed changes
 	SpriteType = {
 		name = "GFX_idea_RUS_Сorrupt_government"
 		texturefile = "gfx/interface/ideas/RUS/RUS_Сorrupt_government.dds"	
 	}
+<<<<<<< Updated upstream
+=======
+		SpriteType = {
+		name = "GFX_idea_RUS_Сorrupt_government_improved_1"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Сorrupt_government.dds"	
+	}
+>>>>>>> Stashed changes
 	SpriteType = {
 		name = "GFX_idea_RUS_Russian_nationalism"
 		texturefile = "gfx/interface/ideas/RUS/RUS_Russian_nationalism.dds"	
@@ -161,10 +189,24 @@ spriteTypes = {
 		name = "GFX_idea_RUS_low_level_education"
 		texturefile = "gfx/interface/ideas/RUS/RUS_low_level_education.dds"	
 	}
+<<<<<<< Updated upstream
+=======
+		SpriteType = {
+		name = "GFX_idea_RUS_low_level_education_improved_1"
+		texturefile = "gfx/interface/ideas/RUS/RUS_low_level_education.dds"	
+	}
+>>>>>>> Stashed changes
 	SpriteType = {
 		name = "GFX_idea_RUS_Economical_crisis"
 		texturefile = "gfx/interface/ideas/RUS/RUS_Economical_crisis.dds"	
 	}
+<<<<<<< Updated upstream
+=======
+		SpriteType = {
+		name = "GFX_idea_RUS_Economical_crisis_improved_1"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Economical_crisis.dds"	
+	}
+>>>>>>> Stashed changes
 	SpriteType = {
 		name = "GFX_idea_RUS_EU_loans"
 		texturefile = "gfx/interface/ideas/RUS/RUS_EU_loans.dds"	

@@ -1,5 +1,5 @@
 ideas = {
-    country = {
+      country = {
 	
 	    mother_of_the_revolution = {
 
@@ -245,6 +245,89 @@ ideas = {
 
 			modifier = {
 			}
+		}	
+
+		materiel_manufacturer = { 
+				
+			designer = yes
+			
+			FRA_generic_materiel = {
+				picture = BRT_generic_materiel
+							
+				allowed = {
+					original_tag = FRA
+				  }
+											
+				traits = { artillery_producer_defense_FRA }
+				
+			}
+		
 		}
+<<<<<<< Updated upstream
 }	
 }	
+=======
+		
+		aircraft_manufacturer = { 
+				
+			designer = yes
+			
+			FRA_gen_air = {
+				picture = BRT_gen_air
+		
+				
+				allowed = {
+					original_tag = FRA
+				  }
+							
+				traits = { CAS_FRA_manufacturer }
+				
+			}
+		
+		}
+		
+		industrial_concern = { 
+				
+			designer = yes
+			
+			FRA_gen_industry = {
+				picture = BRT_gen_industry
+							
+				allowed = {
+					original_tag = FRA
+				  }
+				
+				research_bonus = {
+					industry = 0.02
+				}
+							
+				traits = { industrial_manufacturer }
+				
+			}
+		
+		}
+		
+		tank_manufacturer = { 
+				
+			designer = yes
+
+			FRA_gen_tank_man_1 = {
+				picture = BRT_gen_tank_man_2
+
+		        allowed = {
+			        original_tag = FRA
+		    }
+			
+					research_bonus = {
+						sakuradite = 0.05
+						knightmare_all_pur = 0.05
+					}
+					
+				traits = { knightmare_producer_mass_1 }
+				
+			}
+		
+        }
+	
+}
+>>>>>>> Stashed changes

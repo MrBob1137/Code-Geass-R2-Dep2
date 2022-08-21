@@ -16,6 +16,7 @@ set_technology = {
 	infantry_weapons1 = 1
 	motorised_infantry = 1
 	armored_car1 = 1
+	early_frigate = 1
 	mechanised_infantry = 1
 	marines = 1
 	mbt_1 = 1

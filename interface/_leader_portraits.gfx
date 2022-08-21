@@ -148,4 +148,46 @@ spriteTypes = {
 		name = "GFX_portrait_A11_clovis"
 		texturefile = "gfx/leaders/A11/Portrait_Clovis.dds"
 	}
+
+    #FRA
+
+	spriteType = {
+		name = "GFX_portrait_FRA_edouard_herriot"
+		texturefile = "gfx/leaders/FRA/Portrait_Edouard_Herriot.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_pierre_anou"
+		texturefile = "gfx/leaders/FRA/Portrait_Pierre_Anou.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Frederica_de_Cleves"
+		texturefile = "gfx/leaders/FRA/Portrait_Frederica_de_Cleves.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Claus_Warwick"
+		texturefile = "gfx/leaders/FRA/Portrait_Claus_Warwick.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Oscar_Hamel"
+		texturefile = "gfx/leaders/FRA/Portrait_Oscar_Hamel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Gene_Smilas"
+		texturefile = "gfx/leaders/FRA/Portrait_Gene_Smilas.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Officier_1"
+		texturefile = "gfx/leaders/FRA/Portrait_Officier_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Officier_2"
+		texturefile = "gfx/leaders/FRA/Portrait_Officier_2.dds"
+	}
 }	
