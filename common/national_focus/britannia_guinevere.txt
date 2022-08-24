@@ -193,6 +193,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.46
 		  hidden_effect = {
 		}
 		}
@@ -229,6 +230,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.47
 		  hidden_effect = {
 		}
 		}
@@ -270,6 +272,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.48
 		  hidden_effect = {
 		}
 		}
@@ -308,6 +311,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_popularity{
+				ideology = ultra_nationalism
+				popularity = 0.20
+			}
 		  hidden_effect = {
 		}
 		}
@@ -346,6 +353,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				retire_character = brt_bismark
+				retire_character = Bartley_Asprius
+			}
 		  hidden_effect = {
 		}
 		}
@@ -425,6 +436,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.49
 		  hidden_effect = {
 		}
 		}
@@ -464,6 +476,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.50
 		  hidden_effect = {
 		}
 		}
@@ -504,6 +517,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.51
 		  hidden_effect = {
 		}
 		}
@@ -543,6 +557,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.52
 		  hidden_effect = {
 		}
 		}
@@ -582,6 +597,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.53
 		  hidden_effect = {
 		}
 		}
@@ -623,6 +639,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.54
 		  hidden_effect = {
 		}
 		}
@@ -666,6 +683,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.55
 		  hidden_effect = {
 		}
 		}
