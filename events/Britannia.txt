@@ -1688,6 +1688,7 @@ option = {
 }
 
 country_event = {  #Enemy Everywhere
+id = BRT.56
 title = BRT.56.t
 desc = BRT.56.d
 
@@ -1695,7 +1696,7 @@ fire_only_once = yes
 is_triggered_only = yes
 
 option = {
-	name = BRT.56.a.Enables.Purging.Ideas
+	name = BRT.56.a
 
 	ai_chance = {
 		factor = 70
