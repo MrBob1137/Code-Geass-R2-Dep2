@@ -22,7 +22,7 @@ focus_tree = {
 
 	focus = {
 		id = BRT_guinevere_triumph
-		icon = GFX_BRT_BRT_guinevere_triumph
+		icon = GFX_BRT_guinevere_triumph
 		x = 10
 		y = 0
 
@@ -364,8 +364,13 @@ focus_tree = {
 
 
 	focus = {
-		id = BRT_pass_anti_decadence_laws
-		icon = GFX_BRT_pass_anti_decadence_laws
+		#I changed the name of this focus, since I thought it was
+		#incompatible with Guinevere's style. This rapresents now 
+		#an attempt by the lady to subjugate the military to her
+		#personal rule and strip the Knights of their command
+		#Hence, it will lead to the coup attempt.
+		id = BRT_pass_anti_rebellion_laws
+		icon = GFX_BRT_pass_anti_rebellion_laws
 		x = 1
 		y = 1
 
@@ -417,10 +422,10 @@ focus_tree = {
 
 		
 
-		prerequisite = { focus = BRT_pass_anti_decadence_laws }
+		prerequisite = { focus = BRT_pass_anti_rebellion_laws }
 
 
-		relative_position_id = BRT_pass_anti_decadence_laws
+		relative_position_id = BRT_pass_anti_rebellion_laws
 
 		available = {		
 		country_exists = BRT
@@ -443,7 +448,7 @@ focus_tree = {
 	}
 
 
-	focus = {
+	focus = {    
 		id = BRT_battle_for_pendragon
 		icon = GFX_BRT_battle_for_pendragon
 		x = 0
@@ -1313,8 +1318,9 @@ focus_tree = {
 
 
 	focus = {
-		id = BRT_deal_vv
-		icon = GFX_BRT_deal_vv
+		
+		id = BRT_guinevere_deal_cult
+		icon = GFX_BRT_guinevere_deal_cult
 		x = 1
 		y = 1
 
@@ -1369,14 +1375,14 @@ focus_tree = {
 		}
 
 
-		prerequisite = { focus = BRT_deal_vv }
+		prerequisite = { focus = BRT_guinevere_deal_cult }
 		prerequisite = { focus = BRT_charles_house_arrest }
 
 
 
 
 
-		relative_position_id = BRT_deal_vv
+		relative_position_id = BRT_guinevere_deal_cult
 
 
 		
