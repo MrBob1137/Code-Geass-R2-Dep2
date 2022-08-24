@@ -900,6 +900,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_popularity{
+				ideology = ultra_nationalism
+				popularity = -0.05
+			}
 		  hidden_effect = {
 		}
 		}
@@ -945,7 +949,14 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = BRT.56
 		  hidden_effect = {
+			BRT = {
+				add_ideas = BRT_Purge_Bureucracy
+				add_ideas = BRT_Purge_Government
+				add_ideas = BRT_Purge_Army
+				add_ideas = BRT_Purge_Navy
+			}
 		}
 		}
 	}

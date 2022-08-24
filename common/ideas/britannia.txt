@@ -26,6 +26,22 @@ ideas = {
 			}
 		}
 
+		BRT_Purge_Bureucracy = {
+
+		}
+
+		BRT_Purge_Government = {
+
+		}
+
+		BRT_Purge_Navy = {
+
+		}
+
+		BRT_Purge_Army = {
+			
+		}
+
 		G_Youth_Militias = {
 			modifier{
 				conscription = 0.005
