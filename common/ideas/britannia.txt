@@ -26,10 +26,6 @@ ideas = {
 			}
 		}
 
-		BRT_Purge_Bureucracy = {
-
-		}
-
 		BRT_Purge_Government = {
 
 		}

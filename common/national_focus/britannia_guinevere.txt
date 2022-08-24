@@ -957,7 +957,6 @@ focus_tree = {
 			country_event = BRT.56
 		  hidden_effect = {
 			BRT = {
-				add_ideas = BRT_Purge_Bureucracy
 				add_ideas = BRT_Purge_Government
 				add_ideas = BRT_Purge_Army
 				add_ideas = BRT_Purge_Navy
