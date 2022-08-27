@@ -684,7 +684,7 @@ country_event = {  #Odysseus is no more
 		
     }
 
-	
+	}	
 	
 }
 
@@ -1160,10 +1160,8 @@ is_triggered_only = yes
 	}
 	
 	
-}
+	}
 
-	
-	
 }
 
 
@@ -1512,11 +1510,196 @@ option = {
 }
 }
 
+country_event = {  #Compromise Cult
+id = BRT.46
+title = BRT.46.t
+desc = BRT.46.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.46.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {  #Fuck Odysseus
+id = BRT.47
+title = BRT.47.t
+desc = BRT.47.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.47.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {  #Ignore Charles
+id = BRT.48
+title = BRT.48.t
+desc = BRT.48.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.48.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
 
 
+country_event = {  #Something Bad Is Coming
+id = BRT.49
+title = BRT.49.t
+desc = BRT.49.d
 
+fire_only_once = yes
+is_triggered_only = yes
 
+option = {
+	name = BRT.49.a
+	BRT = {
+		add_stability = -0.1
+	}	
 
+	ai_chance = {
+		factor = 70
+	}
+}
+}
 
+country_event = {  #Battle For Pendragon
+id = BRT.50
+title = BRT.50.t
+desc = BRT.50.d
 
+fire_only_once = yes
+is_triggered_only = yes
 
+option = {
+	name = BRT.50.a
+	BRT = {
+		add_war_support = -0.30
+	}	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {  #Arm Citizens
+id = BRT.51
+title = BRT.51.t
+desc = BRT.51.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.51.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {  #Loyal Units
+id = BRT.52
+title = BRT.52.t
+desc = BRT.52.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.52.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {  #Blind Royal Palace
+id = BRT.53
+title = BRT.53.t
+desc = BRT.53.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.53.a	
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {  #Call Governor
+id = BRT.54
+title = BRT.54.t
+desc = BRT.54.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.54.a
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {  #Dust Settles
+id = BRT.55
+title = BRT.55.t
+desc = BRT.55.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.55.a
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {  #Enemy Everywhere
+id = BRT.56
+title = BRT.56.t
+desc = BRT.56.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.56.a
+
+	ai_chance = {
+		factor = 70
+	}
+}
+}
