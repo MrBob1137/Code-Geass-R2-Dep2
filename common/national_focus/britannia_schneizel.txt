@@ -2749,6 +2749,7 @@ focus_tree = {
 		prerequisite = { focus = BRT_isolate_pontiff }
 		relative_position_id = BRT_isolate_pontiff
 
+		mutually_exclusive = { focus = BRT_mantain_pendragon_priests }
 
 		available = {		
 		country_exists = BRT
