@@ -34,6 +34,16 @@ ideas = {
 
 		}
 
+		BRT_Purge_Navy_Phase_2 = {
+			modifier{
+			naval_coordination = -0.3
+			naval_critical_effect_factor = 0.40
+			naval_damage_factor = -0.60
+			naval_defense_factor = -0.60
+			naval_enemy_positioning_in_initial_attack = -0.15
+			}
+		}
+
 		BRT_Purge_Army = {
 			
 		}

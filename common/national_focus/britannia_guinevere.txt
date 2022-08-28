@@ -1003,6 +1003,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = BRT_Purge_Navy_Phase_2
+				remove_idea = BRT_Purge_Navy
+			}
+			}
 		  hidden_effect = {
 		}
 		}
