@@ -3150,7 +3150,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BRT_dump_osi
+		id = BRT_dump_rsi
 		icon = GFX_BRT_dump_osi
 		x = -2
 		y = 1
@@ -3202,8 +3202,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = BRT_dump_osi }
-		relative_position_id = BRT_dump_osi
+		prerequisite = { focus = BRT_dump_rsi }
+		relative_position_id = BRT_dump_rsi
 
 
 		available = {		
@@ -3270,7 +3270,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BRT_create_RSI
+		id = BRT_create_OSI
 		icon = GFX_BRT_create_RSI
 		x = 2
 		y = 1
@@ -3329,8 +3329,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = BRT_create_RSI }
-		relative_position_id = BRT_create_RSI
+		prerequisite = { focus = BRT_create_OSI }
+		relative_position_id = BRT_create_OSI
 
 
 		available = {		
