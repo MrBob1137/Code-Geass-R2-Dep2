@@ -1613,6 +1613,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			BRT = {
+				swap_ideas = {
+				add_idea = BRT_Purge_Army_Phase_2
+				remove_idea = BRT_Purge_Army
+			}
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1745,6 +1751,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			swap_ideas = {
+				add_idea = BRT_Purge_Army_Phase_3
+				remove_idea = BRT_Purge_Army_Phase_2
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1880,6 +1890,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			swap_ideas = {
+				add_idea = BRT_Purge_Army_Phase_4
+				remove_idea = BRT_Purge_Army_Phase_3
+			}
 		  hidden_effect = {
 		}
 		}
@@ -1924,6 +1938,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			remove_idea = legal_segregation
 		  hidden_effect = {
 		}
 		}
@@ -1968,6 +1983,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			war_support_factor = 0.3
 		  hidden_effect = {
 		}
 		}
@@ -2019,7 +2035,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+			country_event = BRT.59
 		  hidden_effect = {
 		}
 		}

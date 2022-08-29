@@ -1765,6 +1765,7 @@ option = {
 	name = BRT.59.a
 	BRT = {
 		remove_idea = BRT_Purge_Navy_Phase_5
+		remove_idea = BRT_Purge_Army_Phase_4
 	}
 	ai_chance = {
 		factor = 70
