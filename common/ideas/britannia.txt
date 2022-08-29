@@ -26,10 +26,6 @@ ideas = {
 			}
 		}
 
-		BRT_Purge_Government = {
-
-		}
-
 		BRT_Purge_Navy = {
 
 		}
@@ -44,9 +40,41 @@ ideas = {
 			}
 		}
 
+		BRT_Purge_Navy_Phase_3 = {
+			modifier{
+			naval_coordination = -0.15
+			naval_critical_effect_factor = 0.40
+			naval_damage_factor = -0.60
+			naval_defense_factor = -0.60
+			}
+		}
+
+		BRT_Purge_Navy_Phase_4 = {
+			modifier{
+			naval_coordination = -0.15
+			naval_damage_factor = -0.60
+			naval_defense_factor = -0.60
+			}
+		}
+
+		BRT_Purge_Navy_Phase_5 = {
+			modifier{
+			naval_coordination = -0.10
+			naval_damage_factor = -0.15
+			naval_defense_factor = -0.15
+			}
+		}
+		
+
 		BRT_Purge_Army = {
 			
 		}
+
+		BRT_Purge_Army_Phase_1 = {
+			modifier{
+				
+		}
+	}
 
 		G_Youth_Militias = {
 			modifier{

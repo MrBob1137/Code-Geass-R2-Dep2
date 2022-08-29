@@ -1703,3 +1703,71 @@ option = {
 	}
 }
 }
+
+country_event = {  #Charles Under House Arrest
+id = BRT.57
+title = BRT.57.t
+desc = BRT.57.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.57.a
+	BRT = {
+		retire_character = charles_brt
+	add_country_leader_role = {
+  character = BRT_guinevere
+  promote_leader = yes
+  country_leader = {
+    ideology = autocracy
+    expire = "2033.1.1.1"
+    traits = {}
+  }
+}
+	}
+
+	ai_chance = {
+		factor = 70
+	}
+}
+
+}
+
+country_event = {  #Guinevere Deal With the Cult
+id = BRT.58
+title = BRT.58.t
+desc = BRT.58.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.58.a
+	BRT = {
+		retire_character = BRT_VV_Exotic
+	}
+	ai_chance = {
+		factor = 70
+	}
+}
+}
+
+country_event = {  #Declare internal war end
+id = BRT.59
+title = BRT.59.t
+desc = BRT.59.d
+
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+	name = BRT.59.a
+	BRT = {
+		remove_idea = BRT_Purge_Navy_Phase_5
+	}
+	ai_chance = {
+		factor = 70
+	}
+}
+}
