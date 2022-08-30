@@ -1720,7 +1720,7 @@ option = {
   character = BRT_guinevere
   promote_leader = yes
   country_leader = {
-    ideology = autocracy
+    ideology = britannian_con
     expire = "2033.1.1.1"
     traits = {}
   }
