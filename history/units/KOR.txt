@@ -1,7 +1,7 @@
 ﻿division_template = {
 	name = "Korean Garrison"	
 
-	division_names_group = "CHI_INF_01"
+	division_names_group = "KOR_INF_01"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -21,7 +21,7 @@
 division_template = {
 	name = "Korean Infantry Division" 		
 
-	division_names_group = "CHI_GAR_01"
+	division_names_group = "KOR_INF_01"
 
     regiments = {
 		infantry = { x = 0 y = 0 }
@@ -41,7 +41,7 @@ division_template = {
 division_template = {
 	name = "Korean Massed Infantry"
 
-	division_names_group = "CHI_GAR_01"
+	division_names_group = "KOR_INF_01"
 
     regiments = {
 		infantry = { x = 0 y = 0 }

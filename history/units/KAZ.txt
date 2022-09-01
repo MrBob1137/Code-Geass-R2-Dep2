@@ -1,7 +1,7 @@
 ﻿division_template = {
 	name = "Kazakh Light Infantry"	
 
-	division_names_group = "CHI_INF_01"
+	division_names_group = "KAZ_INF_01"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -18,7 +18,7 @@
 division_template = {
 	name = "Kazakh Cavalry"	
 
-	division_names_group = "CHI_INF_01"
+	division_names_group = "KAZ_CAV_01"
 
 	regiments = {
 		Cavalry = { x = 0 y = 0 }
@@ -33,7 +33,7 @@ division_template = {
 division_template = {
 	name = "Kazakh Cavalry Division" 		
 
-	division_names_group = "CHI_GAR_01"
+	division_names_group = "KAZ_CAV_01"
 
     regiments = {
 		Cavalry = { x = 0 y = 0 }

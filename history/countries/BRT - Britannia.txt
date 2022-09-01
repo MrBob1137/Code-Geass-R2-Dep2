@@ -19,6 +19,7 @@ set_technology = {
 	mechanised_infantry = 1
 	marines = 1
 	mbt_1 = 1
+	early_frigate = 1
 	tank_design = 1
 	cold_war_tank = 1
 	eu_war_artillery = 1
